@@ -1,0 +1,54 @@
+Basic Git commands
+
+$ git init   						// create new local repository (Repositorium,Aufbewahrungsort)
+
+$ git status  					    // shows git status
+
+$ git add <filename>				// add changes to INDEX (Liste)
+
+$ git commit -m 'description'		// commit (übergebe) changes
+
+
+
+Github
+
+$ git clone username@host:/path/to/repository	    // clone remote (rechnerfern) repository
+e.g.
+$ git clone git@github.com:Goyapa/mongoduinometeor.git
+
+first time
+$ git push -u origin master  	    // push changes to remote repository, you cloned from
+then only					        // The -u tells Git to remember the parameters
+$ git push
+
+$ git pull 				            // update local repository with remote changes
+
+But syncing a fork:                 // e.g. from https://github.com/Goyapa/COG-01
+https://help.github.com/articles/syncing-a-fork/
+
+$ git fetch upstream
+$ git checkout master
+$ git merge upstream/master
+Tip: Syncing your fork only updates your local copy of the repository. To update your fork on GitHub, you must push your changes.
+
+Docs:
+https://git-scm.com/
+Online Book and Ebook:
+https://git-scm.com/book/en/v2
+
+tryGit: 				               // have a look at https://www.codeschool.com/courses/try-git
+https://try.github.io
+
+A workshopper for Git and GitHub:
+https://github.com/jlord/git-it
+
+git - the simple guide:
+http://rogerdudler.github.io/git-guide/
+
+A successful Git branching model:
+http://nvie.com/posts/a-successful-git-branching-model/
+Git-branching-model.pdf:
+http://nvie.com/files/Git-branching-model.pdf
+
+GitHub Help:
+https://help.github.com/
