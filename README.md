@@ -3,8 +3,7 @@
 ## This is the first part of a programming workshop at Carl-Orff-Gymnasium in Unterschleissheim/Germany
 
 We use JavaScript as our programming language for the behavior,
-HTML as the base structure and
-CSS for styling.
+HTML as the base structure and CSS for styling.
 
 ## Hello world
 Cloud9 IDE we prefer for our school programming workshop, cause of restrictions on school PCs.
@@ -24,4 +23,7 @@ Cloud9 gives us acces to Linux servers and as such to the commandline.
 Basic shell commands for navigation in file system etc.
 
 ### Git commands
-Basic git commands starting with Git and use GitHub to store the repositories
+Basic git commands starting with Git and use GitHub to store the repositories.
+
+### Programming resources
+Collection of useful programming resources.
