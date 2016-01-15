@@ -19,11 +19,11 @@ and makes coding accessible for artists, designers, educators, and beginners.
 ## Commandline
 Cloud9 gives us acces to Linux servers and as such to the commandline.
 
-### Basic commands
+#### Basic commands
 Basic shell commands for navigation in file system etc.
 
-### Git commands
+#### Git commands
 Basic git commands starting with Git and use GitHub to store the repositories.
 
-### Programming resources
+## Programming resources
 Collection of useful programming resources.
