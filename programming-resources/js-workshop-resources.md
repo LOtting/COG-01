@@ -10,10 +10,13 @@ English, the world wide language of open source programming projects and communi
 
 ## Browsers
 Firefox
+
 https://developer.mozilla.org/de/docs/Tools/Seiten_Inspektor
 https://developer.mozilla.org/en-US/docs/Tools/Page_Inspector
 https://www.mozilla.org/en-US/firefox/developer/
+
 Chrome
+
 https://developer.chrome.com/devtools
 http://discover-devtools.codeschool.com/
 
@@ -40,9 +43,10 @@ http://meteorpad.com/pad/XbxFeTPkWh3q9AWoq/Leaderboard
 The Command Line! And more by Ryans Tutorials
 http://ryanstutorials.net/linuxtutorial/commandline.php
 
-The Linux Command Line and
+The Linux Command Line
 http://linuxcommand.org/
-a Book By William Shotts 
+
+and a Book By William Shotts 
 http://sourceforge.net/projects/linuxcommand/files/TLCL/13.07/TLCL-13.07.pdf/download
 
 HOW TO USE THE COMMAND LINE
@@ -63,19 +67,24 @@ jlord/git-it
 https://github.com/jlord/git-it 
 
 
-GitHub, Git projects hosting. 
+GitHub, Git projects hosting with free public projects.
 https://github.com/ 
 
+Bitbucket, Git projects hosting and free private projects.
+
+https://bitbucket.org/
 
 ## HTML(5)
 https://developer.mozilla.org/de/docs/Web/HTML/HTML5
-DOM
+
+## DOM
+
 http://de.wikipedia.org/wiki/Document_Object_Model 
 https://developer.mozilla.org/en-US/docs/Web/API/Document_Object_Model/Introduction
  
 ## JavaScript
 
-https://developer.mozilla.org/de/docs/Web/JavaScript
+Referenz https://developer.mozilla.org/de/docs/Web/JavaScript
 
 JavaScript The Right Way
 http://jstherightway.org/#the-good-parts
