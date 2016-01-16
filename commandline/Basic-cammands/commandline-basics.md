@@ -11,7 +11,7 @@ bash: kdkjflajfks: command not found
 
 Recall the "kdkjflajfks" command using the up-arrow key if needed. Now, try the left and right-arrow keys. You can position the text cursor anywhere in the command line. This allows you to easily correct mistakes. 
 
-##  Command		|		Explanation
+Command		    |		Explanation
 --------------- |  ----------------
 $ pwd  			|		print working directory see man pwd
 
