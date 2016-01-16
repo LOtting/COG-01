@@ -12,13 +12,13 @@ $ git clone https://github.com/Goyapa/COG-01.git  | sample
 $ git remote -v |   List the current configured remote repository of your fork.
 $ git push -u origin master |   push changes to remote repository (your fork)
 $ git push  |   The -u tells Git to remember the parameters
-$ git pull  |   update local repository with remote changes
+$ git pull  |   update local repository with remote changes (your fork)
 But syncing a fork e.g. from https://github.com/Goyapa/COG-01   |   https://help.github.com/articles/syncing-a-fork/
 $ git remote add upstream https://github.com/ORIGINAL_OWNER/ORIGINAL_REPOSITORY.git | add remote upstream repository
 $ git remote add upstream https://github.com/Goyapa/COG-01  |   add original repository you forked from
 $ git fetch upstream    |   sync changes of the original repository with your fork 
 $ git checkout master   |   if you are not allready in master
-$ git merge upstream/master | merge changes (zusammenfügen)
+$ git merge upstream/master | merge changes (Änderungen zusammenfügen)
 $ git remote rm upstream  | if you want to remove the remote upstream
 Tip: Syncing your fork only updates your local copy of the repository. To update your fork on GitHub, you must push your changes.
 
