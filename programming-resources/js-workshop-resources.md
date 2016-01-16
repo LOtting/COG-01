@@ -1,23 +1,31 @@
 # Programming Workshop COG
 
 ## Required Tools (Werkzeuge)
-Browser
-Firefox incl. Firebird or Chrome.
+Browser, Firefox incl. Firebird or Chrome
+
 Cloud9 Account
+
 GitHub Account
+
+FreeCodeCamp Account
+
 Meteor Account for Meteor Pad and deployment
-English, the world wide language of open source programming projects and communities.
+
+English, the world wide language of open source programming projects and communities
 
 ## Browsers
 Firefox
 
 https://developer.mozilla.org/de/docs/Tools/Seiten_Inspektor
+
 https://developer.mozilla.org/en-US/docs/Tools/Page_Inspector
+
 https://www.mozilla.org/en-US/firefox/developer/
 
 Chrome
 
 https://developer.chrome.com/devtools
+
 http://discover-devtools.codeschool.com/
 
 ## Editors
