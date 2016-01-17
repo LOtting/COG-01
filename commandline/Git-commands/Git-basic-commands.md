@@ -20,6 +20,12 @@ $ git fetch upstream    |   sync changes of the original repository with your fo
 $ git checkout master   |   if you are not allready in master
 $ git merge upstream/master | merge changes (Änderungen zusammenfügen)
 $ git remote rm upstream  | if you want to remove the remote upstream
+Git Config  | Cloud9 is preconfigured, get and set configuration variables
+$ git config --list     |   have a look
+$ git config --global user.name "John Doe"  | set/change your user name
+$ git config --global user.email johndoe@example.com    | set/change your email
+
+
 Tip: Syncing your fork only updates your local copy of the repository. To update your fork on GitHub, you must push your changes.
 
 Docs:
