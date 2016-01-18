@@ -80,7 +80,8 @@ objB.hello(); //prints: "Hello, Inspired Coder"
 var emptyArray = []; // empty Array
 
 var baseArray = [1, 2, 3, 4, 5];
-// is nearly the same as baseArray but is not executable
+
+// is nearly the same as baseArray but is not valid (executable)
 var baseObject = {
     0: 1,
     1: 2,
@@ -102,7 +103,7 @@ var baseObject = {
 // following two Array iterations do the same but the 
 // forloop
 var arr = [1, 2, 3];
-for (var i = 0, len = arr.length; i < len; i++) {
+for (var i = 0, len = arr.length; i < len; i++) {  // short form (var i = 0; i < arr.length; i++)
 console.log(arr[i]);
 }
 
