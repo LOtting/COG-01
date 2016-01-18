@@ -1,22 +1,24 @@
-/*
+# JavaScript Objects and Arrays
+
 Object refers to a data structure containing data and instructions for working with the data.
 Objects sometimes refer to real-world things, for example a car or map object in a racing game.
-*/
+
+```javascript
 // Basic object
-var objA = {};  // empty Object
-objA.name = "My Object A"; // give objA a property(eine Eigenschaft)
+var objA = {};                  // empty Object
+objA.name = "My Object A";      // give objA a property(eine Eigenschaft)
 
 // Basic object notation, keys are identifiers
 var obj = {
     key1: "valueOne",  
     key2: "valueTwo"
 };
-console.log( obj );             //prints: Object {key1: "valueOne", key2: "valueTwo"}    
-console.log( obj.key2 );        //prints: valueTwo
-obj.key2;                       //prints: "valueTwo"
+console.log( obj );             // prints Object {key1: "valueOne", key2: "valueTwo"}    
+console.log( obj.key2 );        // prints valueTwo
+obj.key2;                       // prints "valueTwo"
 
 var myObject = obj;             // assigns obj to myObject
-console.log( myObject.key1 );   //prints: valueOne
+console.log( myObject.key1 );   // prints valueOne
 
 
 // basic Object with nested array, object and function
@@ -50,7 +52,7 @@ var objB = {
         console.log("Hello, " + person);
     }
 };
-objB.hello("Gentle Reader"); //prints: "Hello, Gentle Reader"
+objB.hello("Gentle Reader"); // prints "Hello, Gentle Reader"
 
 // Creating new kinds of objects
 function MyObject(person) {
@@ -61,16 +63,16 @@ function MyObject(person) {
 }
 
 var objA = new MyObject("Gentle Reader");
-objA.say(); //prints: "It's Gentle Reader"
+objA.say(); // prints "It's Gentle Reader"
 
 
 // Prototypes
 MyObject.prototype.hello = function() {
     console.log("Hello, " + this.name);
 };
-objA.hello(); //prints: "Hello, Gentle Reader"
+objA.hello(); // prints "Hello, Gentle Reader"
 var objB = new MyObject("Inspired Coder");
-objB.hello(); //prints: "Hello, Inspired Coder"
+objB.hello(); // prints "Hello, Inspired Coder"
 
 
 
@@ -94,13 +96,13 @@ var baseObject = {
     o0: 1,
     o1: 2,
     o2: 3,
-    "3": 4,  // error message: "Unexpected number"
+    "3": 4,  // error message "Unexpected number"
     "o4": 5
 };
 
 
 
-// following two Array iterations do the same but the 
+// following two Array iterations do the same
 // forloop
 var arr = [1, 2, 3];
 for (var i = 0, len = arr.length; i < len; i++) {  // short form (var i = 0; i < arr.length; i++)
@@ -115,23 +117,22 @@ arr.forEach(function(element, index) {
  //   console.log(index);
 });
 
+```
 
 
+## Read this only if you are interested in more details or come back later!
 
-// Read this only if you are interested in more details or come back later!
 
-/*
-Mozilla Developer Neztwork (MDN)
+#Mozilla Developer Neztwork (MD)
 
-Grammar and types:
+## Grammar and types:
 https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Grammar_and_types
 
-Object:
+## Object:
 https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Working_with_Objects
 https://developer.mozilla.org/de/docs/Web/JavaScript/Guide/Grammatik_und_Typen#Object_literals
 
 
-Array:
+## Array:
 https://developer.mozilla.org/de/docs/Web/JavaScript/Reference/Global_Objects/Array
 https://developer.mozilla.org/de/docs/Web/JavaScript/Guide/Grammatik_und_Typen#Array_literals
-*/

@@ -46,10 +46,6 @@ var multiplyValues = function(y) {
 
 multiplyValues(7);
 
-
-//  Function constructor
-// TODO:
-
 ```
 
 ## Read this only if you are interested in more details or come back later!
@@ -62,8 +58,3 @@ https://developer.mozilla.org/en-US/docs/Web/JavaScript
 ### Functions
 https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Functions
 https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/function
-
-## Babel
-Babel is a compiler for writing next generation JavaScript. 
-https://babeljs.io/
-https://github.com/babel/babel
