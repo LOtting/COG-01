@@ -78,7 +78,6 @@ GitHub, Git projects hosting with free public projects.
 https://github.com/ 
 
 Bitbucket, Git projects hosting and free private projects.
-
 https://bitbucket.org/
 
 ## HTML(5)
