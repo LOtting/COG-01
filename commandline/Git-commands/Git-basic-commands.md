@@ -51,3 +51,6 @@ http://nvie.com/files/Git-branching-model.pdf
 
 GitHub Help:
 https://help.github.com/
+
+Collaborating on projects using pull requests
+https://help.github.com/categories/collaborating-on-projects-using-pull-requests/
