@@ -16,9 +16,9 @@ $ git pull  |   update local repository with remote changes (your fork)
 But syncing a fork e.g. from https://github.com/Goyapa/COG-01   |   https://help.github.com/articles/syncing-a-fork/
 $ git remote add upstream https://github.com/ORIGINAL_OWNER/ORIGINAL_REPOSITORY.git | add remote upstream repository
 $ git remote add upstream https://github.com/Goyapa/COG-01  |   add original repository you forked from
-$ git fetch upstream    |   sync changes of the original repository with your fork 
+    $ git fetch upstream    |   sync changes of the original repository with your fork 
 $ git checkout master   |   if you are not allready in master
-$ git merge upstream/master | merge changes (Änderungen zusammenfügen)
+    $ git merge upstream/master | merge changes (Änderungen zusammenfügen)
 $ git remote rm upstream  | if you want to remove the remote upstream
 Git Config  | Cloud9 is preconfigured, get and set configuration variables
 $ git config --list     |   have a look
