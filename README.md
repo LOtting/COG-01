@@ -7,23 +7,23 @@ HTML as the base structure and CSS for styling.
 
 ## [Hello world](https://github.com/Goyapa/COG-01/tree/master/hello-world)
 Cloud9 IDE we prefer for our school programming workshop, cause of restrictions on school PCs.
-This integrated development environment(IDE) gives us a projectfolder structure, editor and a terminal.
+This integrated development environment (IDE) gives us a projectfolder structure, editor and a terminal.
 
-## JavaScript basics
+## [JavaScript basics](https://github.com/Goyapa/COG-01/tree/master/javascript-basics)
 Introduction to objects, functions and controll structures.
 
-## P5.js
+## [P5.js](https://github.com/Goyapa/COG-01/tree/master/p5js)
 p5.js is a JavaScript client-side library for creating graphic and interactive experiences,
 and makes coding accessible for artists, designers, educators, and beginners.
 
-## Commandline
+## [Commandline](https://github.com/Goyapa/COG-01/tree/master/commandline)
 Cloud9 gives us acces to Linux servers and as such to the commandline.
 
-#### Basic commands
+#### [Basic commands](https://github.com/Goyapa/COG-01/tree/master/commandline/Basic-cammands)
 Basic shell commands for navigation in file system etc.
 
-#### Git commands
+#### [Git commands](https://github.com/Goyapa/COG-01/tree/master/commandline/Git-commands)
 Basic git commands starting with Git and use GitHub to store the repositories.
 
-## Programming resources
+## [Programming resources](https://github.com/Goyapa/COG-01/tree/master/programming-resources)
 Collection of useful programming resources.
