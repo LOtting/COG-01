@@ -1,6 +1,9 @@
 # Functions in JavaScript
 
 ```javascript
+// Function Statement
+// https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/function
+
 /* Principal function decalration
 
 function name() {
@@ -21,7 +24,7 @@ function greetings() {
 // 02 add function
 function add ( a, b ) {
     var sum = a + b;
-    return sum;
+    return sum; // Function returns the value of sum, which is the sum of a plus b;
 }
 
 add( 2, 7 );
@@ -43,9 +46,13 @@ var multiplyValues = function(y) {
 
 multiplyValues(7);
 
-// Read this only if you are interested in more details or come back later!
+
+//  Function constructor
+// TODO:
 
 ```
+
+## Read this only if you are interested in more details or come back later!
 
 ## Mozilla Developer Neztwork (MDN)
 
@@ -56,8 +63,7 @@ https://developer.mozilla.org/en-US/docs/Web/JavaScript
 https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Functions
 https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/function
 
-
-
-### Babel is a compiler for writing next generation JavaScript. 
+## Babel
+Babel is a compiler for writing next generation JavaScript. 
 https://babeljs.io/
 https://github.com/babel/babel

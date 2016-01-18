@@ -121,11 +121,13 @@ arr.forEach(function(element, index) {
 // Read this only if you are interested in more details or come back later!
 
 /*
+Mozilla Developer Neztwork (MDN)
+
 Grammar and types:
 https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Grammar_and_types
 
 Object:
-// https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Working_with_Objects
+https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Working_with_Objects
 https://developer.mozilla.org/de/docs/Web/JavaScript/Guide/Grammatik_und_Typen#Object_literals
 
 
