@@ -4,7 +4,7 @@
 // Function Statement
 // https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/function
 
-/* Principal function decalration
+/* Principal function declaration
 
 function name() {
     programmcode
