@@ -42,10 +42,6 @@ CodePen
 A playground for the front end web.
 http://codepen.io/
 
-Meteor Pad
-http://meteorpad.com/pad/XbxFeTPkWh3q9AWoq/Leaderboard
-
-
 ## Commandline 
 	
 The Command Line! And more by Ryans Tutorials
@@ -74,7 +70,10 @@ Learning Git
 jlord/git-it 
 https://github.com/jlord/git-it 
 
+A successful Git branching model:
+http://nvie.com/posts/a-successful-git-branching-model/
 
+### Hosting project sources
 GitHub, Git projects hosting with free public projects.
 https://github.com/ 
 
