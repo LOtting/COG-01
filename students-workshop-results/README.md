@@ -31,5 +31,5 @@ https://guides.github.com/introduction/flow/
 Using Pull Requests
 https://help.github.com/articles/using-pull-requests/
 
-## Comparing commits across time
+Comparing commits across time
 https://help.github.com/articles/comparing-commits-across-time/#comparing-branches
