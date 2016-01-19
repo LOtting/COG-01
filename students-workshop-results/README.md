@@ -16,7 +16,8 @@ Create a branch "yourFirstname-yourLastname", add and commit your "results" fold
 
 ## Creating a branch
 https://github.com/Kunena/Kunena-Forum/wiki/Create-a-new-branch-with-git-and-manage-branches
-Sample:
+
+Example:
 $ git checkout -b [yourFirstname-yourLastname]
 
 ## Creating a Pull Request
