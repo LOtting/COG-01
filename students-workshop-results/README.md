@@ -5,12 +5,13 @@
 ## Creat a Pull Request from your fork to Goyapa/COG-01
 https://github.com/Goyapa/COG-01
 
-Put your results, homework and solutions into the folder "students-workshop-results" with 
-your first and lastname like this shema: "yourFirstname-yourLastname" 
-Example:
-/students-workshop-results/michael-macherey/
+Within the folder "students-workshop-results" put your results, homework and solutions into a folder with 
+your first and lastname like this shema: "yourFirstname-yourLastname".
 
-Create a branch "yourFirstname-yourLastname" and add, commit and push your results to your fork and create a Pull Request
+Example:
+cog01/students-workshop-results/michael-macherey/
+
+Create a branch "yourFirstname-yourLastname", add and commit your "results" folder than push to your fork and create a Pull Request.
 
 
 ## Creating a branch
