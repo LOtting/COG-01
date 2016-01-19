@@ -28,5 +28,5 @@ Basic git commands starting with Git and use GitHub to store the repositories.
 ## [Programming resources](https://github.com/Goyapa/COG-01/tree/master/programming-resources)
 Collection of useful programming resources.
 
-## Students workshop results
+## [Students workshop results](https://github.com/Goyapa/COG-01/tree/master/students-workshop-results)
 Folders sorted by students name with their workshop results.
