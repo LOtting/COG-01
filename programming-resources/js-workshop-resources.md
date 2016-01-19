@@ -166,7 +166,7 @@ http://goo.gl/QYMbwZ
 
 ## Learning resources
 DevDocs combines multiple API documentations in a fast,
-organized, and searchable interface.
+organized, and searchable interface. (Offline mode)
 http://devdocs.io/
 
 Web technology for developers
