@@ -8,6 +8,7 @@ HTML as the base structure and CSS for styling.
 ## [Hello world](https://github.com/Goyapa/COG-01/tree/master/hello-world)
 Cloud9 IDE we prefer for our school programming workshop, cause of restrictions on school PCs.
 This integrated development environment (IDE) gives us a projectfolder structure, editor and a terminal.
+A full Ubuntu workspace in the cloud
 
 ## [JavaScript basics](https://github.com/Goyapa/COG-01/tree/master/javascript-basics)
 Introduction to objects, functions and controll structures.
