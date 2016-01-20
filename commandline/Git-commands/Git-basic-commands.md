@@ -28,6 +28,13 @@ $ git config --global user.email johndoe@example.com    | set/change your email
 
 Tip: Syncing your fork only updates your local copy of the repository. To update your fork on GitHub, you must push your changes.
 
+
+Via Twitter ;-)
+Sebastian McKenzie @sebmck  Jan 16
+I've started tracking how many hours I sleep by checking the time difference between my GitHub commits.
+
+
+
 Docs:
 https://git-scm.com/
 
