@@ -27,6 +27,7 @@ Basic shell commands for navigation in file system etc.
 Basic git commands starting with Git and use GitHub to store the repositories.
 
 ## [Node.js](https://github.com/Goyapa/COG-01/tree/master/nodejs)
+Node.js is an JavaScript runtime environment.
 
 ## [Programming resources](https://github.com/Goyapa/COG-01/tree/master/programming-resources)
 Collection of useful programming resources.
