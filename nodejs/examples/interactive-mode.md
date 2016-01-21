@@ -32,6 +32,7 @@ undefined
 Hello World!
 undefined
 >
+
 ```
 There are a few special REPL commands:
 
@@ -43,6 +44,20 @@ Command | Explanation
 .help   |   Show this list of special commands.
 .save   |   Save the current REPL session to a file. Example: .save ./file/to/save.js
 .load   |   Load a file into the current REPL session. Example: .load ./file/to/load.js
+
+```shell
+$ node
+> console.log("Hello World!");
+Hello World
+undefined
+> .save myShellFile.js
+Session saved to:myShellFile.js
+> .load myShellFile.js
+> console.log("Hello World!");
+Hello World
+undefined
+>
+```
 
 The following key combinations in the REPL have these special effects:
 
@@ -60,3 +75,13 @@ a REPL can support you to explore and improve data structures too.
 http://thinkingonthinking.com/scripting-a-csv-converter/
 if you follow this tutorial use this link to the Node.js v4.2.4 Documentation
 https://nodejs.org/dist/latest-v4.x/docs/api/fs.html#fs_fs_readfile_file_options_callback
+
+
+## Books:
+
+Node: Up and Running
+http://chimera.labs.oreilly.com/books/1234000001808/index.html
+
+Node.js: Das umfassende Handbuch.
+Serverseitige Webapplikationen mit JavaScript entwickeln (Galileo Computing) EUR 34,90 
+von Sebastian Springer (aus München)

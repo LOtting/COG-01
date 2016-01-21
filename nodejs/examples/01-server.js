@@ -1,5 +1,8 @@
-var http = require('http');
-http.createServer().listen(8080, '127.0.0.1');
-console.log('Webserver is running.');
+/* 
+Execute from Shell
+yourAccount:~/workspace/nodejs/examples $ node 01-server.js
+Webserver is running.
 
-// abort with Ctrl-c
+abort with "Ctrl-c" two times
+*/
+console.log("Hello World!");
