@@ -8,6 +8,7 @@ Information about TDD and BDD is not important yet!
 
 Hint: You have to insert REPL samples line by line and hit "Return",
 copy and paste more than one line does not work cause of "...".
+
 At "REPLing out the convert function" do not forget to
 
 ```shell
