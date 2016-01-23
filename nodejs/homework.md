@@ -56,12 +56,15 @@ $ npm install underscore
 ```
 in your "RDD-workshop" folder
 
-and add this to "jsony.js"
+Copy all the JavaScript from "You’ll end up with:" till "And, your command line client:" and past it into "jsony.js"
+
+and add this four lines at the beginning of the file "jsony.js"
 
 ```javascript
 var fs = require('fs');
 // This line is implicit cause of using the Underscore JavaScript library
 var _ = require('underscore');
+var JSONy = function() {};
 ```
 NPM will be explained in detail next time.
 
