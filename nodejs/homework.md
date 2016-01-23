@@ -3,8 +3,12 @@
 
 ## 1.) Follow the REPL Driven Development (RDD) tutorial at the "interactive-mode.md" file.
 
+Creat a folder "RDD-workshop" cd into it and follow the tutorial.
+
 Start at line "RDD stands for REPL Driven Development".
 Information about TDD and BDD is not important yet!
+
+
 
 ### Hints: 
 You have to insert REPL samples line by line and hit "Return",
@@ -17,7 +21,7 @@ Use the Linux Manual to get information about "cat" Program.
 ```shell
 $ man cat
 ```
-
+##### REPLing out the convert function
 At "REPLing out the convert function" do not forget to
 
 ```shell
@@ -44,6 +48,23 @@ But in convert.js file "jsony" is correct!
 ```javascript
 var jsony = require('./jsony');
 ```
+
+##### The last mile
+For "The last mile" you have to
+```shell
+$ npm install underscore
+```
+in your "RDD-workshop" folder
+
+and add this to "jsony.js"
+
+```javascript
+var fs = require('fs');
+// This line is implicit cause of using the Underscore JavaScript library
+var _ = require('underscore');
+```
+NPM will be explained in detail next time.
+
 
 ## 2.) At FreeCodeCamp follow "Start a Nodejs Server".
 
