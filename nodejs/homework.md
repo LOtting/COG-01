@@ -1,7 +1,7 @@
-Homework
-22.01.2016
+# Homework
 
-1.) Follwow the REPL Driven Development (RDD) tutorial at the "interactive-mode.md" file.
+
+1.) Follow the REPL Driven Development (RDD) tutorial at the "interactive-mode.md" file.
 
 Start at line "RDD stands for REPL Driven Development".
 Information about TDD and BDD is not important yet!
