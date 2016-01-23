@@ -6,8 +6,14 @@ Homework
 Start at line "RDD stands for REPL Driven Development".
 Information about TDD and BDD is not important yet!
 
-Hint: You have to insert REPL samples line by line and hit "Return",
+Hints: You have to insert REPL samples line by line and hit "Return",
 copy and paste more than one line does not work cause of "...".
+
+Use the Linux Manual to get information about "cat" Program.
+
+```shell
+$ man cat
+```
 
 At "REPLing out the convert function" do not forget to
 
