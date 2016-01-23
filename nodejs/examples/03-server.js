@@ -38,7 +38,7 @@ http.createServer(function (request, response) {
     response.writeHead(200,
         {'content-type': 'text/plain; charset=utf-8'});
     response.write('Hello ');
- //   response.write('COG ');
+//    response.write('COG ');
     response.end('World!\n');
 }).listen(process.env.PORT, process.env.IP);
 console.log('Webserver is running.');

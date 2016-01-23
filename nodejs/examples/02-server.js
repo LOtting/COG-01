@@ -14,5 +14,7 @@ abort with "Ctrl-c" two times
 // .listen()
 //  https://nodejs.org/dist/latest-v4.x/docs/api/http.html#http_server_listen_handle_callback
 var http = require('http');
-http.createServer().listen(8080, '127.0.0.1');
+// http.createServer().listen(8080, '127.0.0.1');
+http.createServer().listen(process.env.PORT, process.env.IP);
+
 console.log('Webserver is running.');
