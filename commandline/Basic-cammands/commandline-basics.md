@@ -18,9 +18,9 @@ $ ls                        |	list files and folders
 $ ls -l                     |	list long
 $ ls -al                    |	list all long (lists hidden directories)
 $ less                      |	viewing files (q for quit)
-$ less	[filename]         |	e.g. "less myApp.js"
+$ less	[filename]          |	e.g. "less myApp.js"
 $ file                      |	shows file information
-$ file  [filename]      |   e.g "file myApp.js"
+$ file  [filename]          |   e.g "file myApp.js"
 $ mkdir [directory_name]    |   make new directory (folder)
 $ man   [program_name]      |   open manual of a program
 $ man man                   |   manual of man
@@ -34,15 +34,26 @@ n@c:/$                      |   "/$" you are in the root directory of your Linux
 n@c:~/workspace$ cd         |   from current to home directory
 n@c:~$ cd /                 |   from home to root directory
 n@c:/$ cd                   |   from root to home directory
-$ cat           |   Concatenate FILE(s), or standard input, to standard output.
-$ cat > [filename]    | 
-$ cat > jsony.js    |   push line by line into "jsony.js"
-var fs = require('fs'); | line one
+$ cat                       |   Concatenate FILE(s), or standard input, to standard output.
+$ cat > [filename]          |   as a general rule
+$ cat > jsony.js            |   push line by line into "jsony.js"
+var fs = require('fs');     |   line one
 var JSONy = function() {};  |   line two
-module.exports = JSONy; |   line three  and finish with Ctrl-C
-These examples also point out an important concept about commands. Most commands operate like this:
+module.exports = JSONy;     |   line three  and finish with Ctrl-C
+$ chmod                     |   chmod - change file mode bits
+$ chmod u+x                 |   [FilePermissions](https://help.ubuntu.com/community/FilePermissions)
+$ chmod u+x ./convert.js    |   Add owner execute bit, see "FilePermissions"
+
+These examples also point out an important concept about commands. 
+
+Most commands operate like this:
     
     $ command -options arguments
 
-The Linux Command Line A Book By William Shotts
-http://sourceforge.net/projects/linuxcommand/files/TLCL/13.07/TLCL-13.07.pdf/download
+
+## [The Linux Command Line A Book By William Shotts](http://sourceforge.net/projects/linuxcommand/files/TLCL/13.07/TLCL-13.07.pdf/download)
+
+
+## [CommandlineHowto](https://help.ubuntu.com/community/CommandlineHowto)
+
+## [AdvancedCommandlineHowto](https://help.ubuntu.com/community/AdvancedCommandlineHowto)
