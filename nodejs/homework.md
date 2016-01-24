@@ -83,7 +83,7 @@ $ ./convert.js movies.csv
 ```
 with Nodejs.
 
-But before you have to make this file executable (x) with
+But before you have to make this file e(x)ecutable with
 ```shell
 $ chmod u+x ./convert.js
 ```
