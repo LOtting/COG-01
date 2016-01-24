@@ -16,11 +16,13 @@ copy and paste more than one line does not work cause of "...".
 
 
 
-Use the Linux Manual to get information about "cat" Program.
+Use the Linux Manual to get information about "cat" Program
+and have a look at "commandline-basics.md"
 
 ```shell
 $ man cat
 ```
+
 ##### REPLing out the convert function
 At "REPLing out the convert function" do not forget to
 
