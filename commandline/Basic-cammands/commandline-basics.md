@@ -1,16 +1,7 @@
 # Command-line Tutorial
-http://linuxcommand.org/ 
 
-You only need to read and follow "Learning the Shell" until "Looking Around".
-
-The "$" character shows you that this is a "Command-Line" command!
-You have to write the command without the "$" character into your terminal and hit return.
-
-$ kdkjflajfks 		this is a wrong command
-bash: kdkjflajfks: command not found 
-
-Recall the "kdkjflajfks" command using the up-arrow key if needed. Now, try the left and right-arrow keys. You can position the text cursor anywhere in the command line. This allows you to easily correct mistakes. 
-
+## [The Command Line Crash Course](http://cli.learncodethehardway.org/book/)
+ 
 Command                     |   Explanation
 ----------------------------|   ----------------
 $ pwd                       |   print working directory
@@ -49,7 +40,9 @@ These examples also point out an important concept about commands.
 Most commands operate like this:
     
     $ command -options arguments
+    
 
+## [Learning the Shell](http://linuxcommand.org/lc3_learning_the_shell.php)
 
 ## [The Linux Command Line A Book By William Shotts](http://sourceforge.net/projects/linuxcommand/files/TLCL/13.07/TLCL-13.07.pdf/download)
 
@@ -58,5 +51,3 @@ Most commands operate like this:
 ## [AdvancedCommandlineHowto](https://help.ubuntu.com/community/AdvancedCommandlineHowto)
 
 ## [The Linux Commandline on Windows](https://www.cygwin.com/)
-
-## [The Command Line Crash Course](http://cli.learncodethehardway.org/book/)
