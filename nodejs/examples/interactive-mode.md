@@ -73,15 +73,22 @@ A REPL provides great feedback to obtain a feeling for the boundaries of your mo
 objects and messages. And, if you work with data in JSON,
 a REPL can support you to explore and improve data structures too.
 http://thinkingonthinking.com/scripting-a-csv-converter/
-if you follow this tutorial use this link to the Node.js v4.2.4 Documentation
-https://nodejs.org/dist/latest-v4.x/docs/api/fs.html#fs_fs_readfile_file_options_callback
+
+if you follow this tutorial use this link to the [Node.js v4.2.4 Documentation](https://nodejs.org/dist/latest-v4.x/docs/api/fs.html#fs_fs_readfile_file_options_callback)
+
+
+## Building command line tools [(CLI-tools)](https://developer.atlassian.com/blog/2015/11/scripting-with-node/) with Node.js 
+...
+Then, one day, I looked at the last six letters of the language 
+that I've been using every day for the last decade and had a lightpalm facebulb moment.
+It turns out you can use JavaScript... for scripting!
+...
 
 
 ## Books:
 
-Node: Up and Running
-http://chimera.labs.oreilly.com/books/1234000001808/index.html
+[Node: Up and Running](http://chimera.labs.oreilly.com/books/1234000001808/index.html)
 
-Node.js: Das umfassende Handbuch.
+[Node.js: Das umfassende Handbuch](https://www.rheinwerk-verlag.de/nodejs_3319/)
 Serverseitige Webapplikationen mit JavaScript entwickeln (Galileo Computing) EUR 34,90 
-von Sebastian Springer (aus München)
+von Sebastian Springer (aus München) Achtung! Ab März 2te Version erhältlich.
