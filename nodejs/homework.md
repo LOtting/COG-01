@@ -70,6 +70,28 @@ var JSONy = function() {};
 ```
 NPM will be explained in detail next time.
 
+The first line of "convert.js" is a [shebang](https://en.wikipedia.org/wiki/Shebang_(Unix))
+```javascript
+#!/usr/bin/env node
+
+var jsony = require('./jsony');
+
+```
+it tells the interpreter to run a program that was called like this
+```shell
+$ ./convert.js movies.csv
+```
+with Nodejs.
+
+But before you have to make this file executable (x) with
+```shell
+$ chmod u+x ./convert.js
+```
+[Ubuntuusers chmod](https://wiki.ubuntuusers.de/chmod/)
+
+[FilePermissions - Official Ubuntu Documentation](https://help.ubuntu.com/community/FilePermissions)
+ See "Add owner execute bit:"
+
 
 ## 2.) At FreeCodeCamp follow "Start a Nodejs Server".
 
