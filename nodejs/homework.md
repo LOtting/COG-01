@@ -32,7 +32,7 @@ At "REPLing out the convert function" do not forget to
 in the second run.
 
 
-At jsony.js file ther is the var "JSONy" it should always be written "JSONy" and not "jsony".
+At jsony.js file there is the var "JSONy" it should always be written "JSONy" and not "jsony".
 
 Right:
 ```javascript
@@ -56,7 +56,7 @@ For "The last mile" you have to
 ```shell
 $ npm install underscore
 ```
-in your "RDD-workshop" folder
+in your "RDD-workshop" folder.
 
 Copy all the JavaScript from "You’ll end up with:" till "And, your command line client:" and past it into "jsony.js"
 
