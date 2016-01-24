@@ -18,24 +18,28 @@ $ ls                        |	list files and folders
 $ ls -l                     |	list long
 $ ls -al                    |	list all long (lists hidden directories)
 $ less                      |	viewing files (q for quit)
-$ less	\<text_file\>         |	e.g. "less myApp.js"
+$ less	[filename]         |	e.g. "less myApp.js"
 $ file                      |	shows file information
-$ file  \<name_of_file\>      |   e.g "file myApp.js"
-$ mkdir \<directory_name\>    |   make new directory (folder)
-$ man   \<program_name\>      |   open manual of a program
+$ file  [filename]      |   e.g "file myApp.js"
+$ mkdir [directory_name]    |   make new directory (folder)
+$ man   [program_name]      |   open manual of a program
 $ man man                   |   manual of man
 $ man git                   |   git manual
 $ man node                  |   node manual
 $ cd                        |   change directory
 $ cd /usr/bin               |   change into folder /usr/bin
-$ cd \<two-points\>           |   change the working directory to the parent
+$ cd [two-points]           |   change the working directory to the parent
 n@c:~$                      |   "~$" you are in the home directory (root of your project) 
 n@c:/$                      |   "/$" you are in the root directory of your Linux System
 n@c:~/workspace$ cd         |   from current to home directory
 n@c:~$ cd /                 |   from home to root directory
 n@c:/$ cd                   |   from root to home directory
-
-
+$ cat           |   Concatenate FILE(s), or standard input, to standard output.
+$ cat > [filename]    | 
+$ cat > jsony.js    |   push line by line into "jsony.js"
+var fs = require('fs'); | line one
+var JSONy = function() {};  |   line two
+module.exports = JSONy; |   line three  and finish with Ctrl-C
 These examples also point out an important concept about commands. Most commands operate like this:
     
     $ command -options arguments
