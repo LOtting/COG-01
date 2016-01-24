@@ -53,7 +53,10 @@ Most commands operate like this:
 
 ## [The Linux Command Line A Book By William Shotts](http://sourceforge.net/projects/linuxcommand/files/TLCL/13.07/TLCL-13.07.pdf/download)
 
-
 ## [CommandlineHowto](https://help.ubuntu.com/community/CommandlineHowto)
 
 ## [AdvancedCommandlineHowto](https://help.ubuntu.com/community/AdvancedCommandlineHowto)
+
+## [The Linux Commandline on Windows](https://www.cygwin.com/)
+
+## [The Command Line Crash Course](http://cli.learncodethehardway.org/book/)
