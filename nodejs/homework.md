@@ -22,6 +22,7 @@ and have a look at "commandline-basics.md"
 ```shell
 $ man cat
 ```
+have a look at [Commandline-basics](https://github.com/Goyapa/COG-01/blob/master/commandline/Basic-cammands/commandline-basics.md)
 
 ##### REPLing out the convert function
 At "REPLing out the convert function" do not forget to

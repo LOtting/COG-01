@@ -30,7 +30,7 @@ $ cat > [filename]          |   as a general rule
 $ cat > jsony.js            |   push line by line into "jsony.js"
 var fs = require('fs');     |   line one
 var JSONy = function() {};  |   line two
-module.exports = JSONy;     |   line three  and finish with Ctrl-C
+module.exports = JSONy;     |   line three,  finish "cat" with Ctrl-C
 $ chmod                     |   chmod - change file mode bits
 $ chmod u+x                 |   [FilePermissions](https://help.ubuntu.com/community/FilePermissions)
 $ chmod u+x ./convert.js    |   Add owner execute bit, see "FilePermissions"
