@@ -17,12 +17,12 @@ copy and paste more than one line does not work cause of "...".
 
 
 Use the Linux Manual to get information about "cat" Program
-and have a look at "commandline-basics.md"
+and have a look at ["commandline-basics.md"](https://github.com/Goyapa/COG-01/blob/master/commandline/Basic-cammands/commandline-basics.md)
 
 ```shell
 $ man cat
 ```
-have a look at [Commandline-basics](https://github.com/Goyapa/COG-01/blob/master/commandline/Basic-cammands/commandline-basics.md)
+
 
 ##### REPLing out the convert function
 At "REPLing out the convert function" do not forget to
