@@ -24,6 +24,12 @@ Git Config  | Cloud9 is preconfigured, get and set configuration variables
 $ git config --list     |   have a look
 $ git config --global user.name "John Doe"  | set/change your user name
 $ git config --global user.email johndoe@example.com    | set/change your email
+|||
+$ git mv                                                            |   [git-mv](https://git-scm.com/book/en/v2/Git-Basics-Recording-Changes-to-the-Repository#Moving-Files) - Move or rename a file, a directory, or a symlink
+$ git mv [previousFilename] [newFilename]                           |   rename file with git as a general rule
+$ git mv mySuper.js myHero.js                                       |   rename "mySuper.js" to "myHero.js"          
+$ git mv [xyzFolder/previousFolderName] [xyzFolder/newFolderName]   |   rename folder with git as a general rule
+$ git mv commandline/Basic-cammands/ commandline/Basics-commands    |   rename folder from "Basic-cammands" to "Basics-commands"
 
 
 Tip: Syncing your fork only updates your local copy of the repository. To update your fork on GitHub, you must push your changes.
