@@ -1,40 +1,40 @@
 # Basic Git commands
 
-Command | Explanation
-------- | ------------
-$ git init      | initial Step, create one time a new local repository (Repositorium, Aufbewahrungsort)
+Command                                                         | Explanation
+-------                                                         | ------------
+$ git init                                                      | Initial Step, move to Step 1 or Step 4: Creates a new local repository (Repositorium, Aufbewahrungsort)
 |||
-$ git status    | Step 1, shows git's actual status: Changes, untracked files etc.
+$ git status                                                    | Step 1: shows git's actual status: Changes, untracked files etc.
 |||
-$ git add [filename] |  Step 2, add changes to INDEX(Liste) as a general rule
-$ git add myScript.js   |   add "myScript.js" to the INDEX also called the Stage
+$ git add [filename]                                            |  Step 2: add changes to INDEX(Liste) as a general rule
+$ git add myScript.js                                           |   add "myScript.js" to the INDEX also called the Stage
 |||
-$ git commit -m 'description'   |   Step 3 - repeat at Step 1, commit (übergebe) changes as a general rule
-$ git commit -m "Fix typo in introduction to user guide"    |   The description should give the reader a hint what was done. 
-$ git commit                            | [How to Write a Git Commit Message](http://chris.beams.io/posts/git-commit/)
+$ git commit -m 'description'                                   |   Step 3 - repeat at Step 1 or move to Step 5: Commit (übergebe) changes as a general rule
+$ git commit -m "Fix typo in introduction to user guide"        |   The description should give the reader a hint what was done. 
+$ git commit                                                    | [How to Write a Git Commit Message](http://chris.beams.io/posts/git-commit/)
 |||
-GitHub  |   the following commands are more specific to remote repositories
-$ git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY   |   clone remote repository 
-$ git clone https://github.com/Goyapa/COG-01.git  | sample
-$ git remote -v |   List the current configured remote repository of your fork.
-$ git push -u origin master |   push changes to remote repository (your fork)
-$ git push  |   The -u tells Git to remember the parameters
-$ git pull  |   update local repository with remote changes (your fork)
+GitHub                                                          |   the following commands are more specific to remote repositories
+$ git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY    |   Step 4, move to Step 1:  Clone remote repository 
+$ git clone https://github.com/Goyapa/COG-01.git                |   sample
+$ git remote -v                                                 |   List the current configured remote repository of your fork.
+$ git push -u origin master                                     |   Step 5: Push changes to remote repository (your fork)
+$ git push                                                      |   The -u tells Git to remember the parameters
+$ git pull                                                      |   update local repository with remote changes (your fork)
 |||
 But syncing a fork e.g. from https://github.com/Goyapa/COG-01   |   https://help.github.com/articles/syncing-a-fork/
 $ git remote add upstream https://github.com/ORIGINAL_OWNER/ORIGINAL_REPOSITORY.git | add remote upstream repository as a general rule
-$ git remote add upstream https://github.com/Goyapa/COG-01      | Step 1: add original repository you forked from
-$ git fetch upstream                                            | Step 2: sync changes of the original repository with your fork 
-$ git checkout master                                           | Step 3: if you are not already in master
-$ git merge upstream/master                                     | Step 4: merge changes (Änderungen zusammenfügen)
-$ git push -u origin master                                     | Step 5: push changes from upstream to remote repository (your fork)
+$ git remote add upstream https://github.com/Goyapa/COG-01      | Step 01: add original repository you forked from
+$ git fetch upstream                                            | Step 02: sync changes of the original repository with your fork 
+$ git checkout master                                           | Step 03: if you are not already in master
+$ git merge upstream/master                                     | Step 04: merge changes (Änderungen zusammenfügen)
+$ git push -u origin master                                     | Step 05: push changes from upstream to remote repository (your fork)
 Tip: Syncing your fork only updates your local copy of the repository.  |   To update your fork on GitHub, you must push your changes.
-$ git remote rm upstream  | if you want to remove the remote upstream
+$ git remote rm upstream                                        | if you want to remove the remote upstream
 |||
-Git Config  | Cloud9 is preconfigured, get and set configuration variables
-$ git config --list     |   have a look
-$ git config --global user.name "John Doe"  | set/change your user name
-$ git config --global user.email johndoe@example.com    | set/change your email
+Git Config                                                      |   Cloud9 is preconfigured, get and set configuration variables
+$ git config --list                                             |   have a look
+$ git config --global user.name "John Doe"                      |   set/change your user name
+$ git config --global user.email johndoe@example.com            |   set/change your email
 |||
 $ git mv                                                            |   [git-mv](https://git-scm.com/book/en/v2/Git-Basics-Recording-Changes-to-the-Repository#Moving-Files) - Move or rename a file, a directory, or a symlink
 $ git mv [previousFilename] [newFilename]                           |   rename file with git as a general rule
