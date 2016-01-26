@@ -2,10 +2,17 @@
 
 Command | Explanation
 ------- | ------------
-$ git init      |   create new local repository (Repositorium, Aufbewahrungsort)
-$ git status    |   shows git status
-$ git add \<filename\> |  add changes to INDEX (Liste)
-$ git commit -m 'description'   |   commit (übergebe) changes
+$ git init      | initial Step, create one time a new local repository (Repositorium, Aufbewahrungsort)
+|||
+$ git status    | Step 1, shows git's actual status: Changes, untracked files etc.
+|||
+$ git add [filename] |  Step 2, add changes to INDEX(Liste) as a general rule
+$ git add myScript.js   |   add "myScript.js" to the INDEX also called the Stage
+|||
+$ git commit -m 'description'   |   Step 3 - repeat at Step 1, commit (übergebe) changes as a general rule
+$ git commit -m "Fix typo in introduction to user guide"    |   The description should give the reader a hint what was done. 
+$ git commit                            | [How to Write a Git Commit Message](http://chris.beams.io/posts/git-commit/)
+|||
 GitHub  |   the following commands are more specific to remote repositories
 $ git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY   |   clone remote repository 
 $ git clone https://github.com/Goyapa/COG-01.git  | sample
@@ -13,13 +20,17 @@ $ git remote -v |   List the current configured remote repository of your fork.
 $ git push -u origin master |   push changes to remote repository (your fork)
 $ git push  |   The -u tells Git to remember the parameters
 $ git pull  |   update local repository with remote changes (your fork)
+|||
 But syncing a fork e.g. from https://github.com/Goyapa/COG-01   |   https://help.github.com/articles/syncing-a-fork/
-$ git remote add upstream https://github.com/ORIGINAL_OWNER/ORIGINAL_REPOSITORY.git | add remote upstream repository
-$ git remote add upstream https://github.com/Goyapa/COG-01  |   add original repository you forked from
-    $ git fetch upstream    |   sync changes of the original repository with your fork 
-$ git checkout master   |   if you are not allready in master
-    $ git merge upstream/master | merge changes (Änderungen zusammenfügen)
+$ git remote add upstream https://github.com/ORIGINAL_OWNER/ORIGINAL_REPOSITORY.git | add remote upstream repository as a general rule
+$ git remote add upstream https://github.com/Goyapa/COG-01      | Step 1: add original repository you forked from
+$ git fetch upstream                                            | Step 2: sync changes of the original repository with your fork 
+$ git checkout master                                           | Step 3: if you are not already in master
+$ git merge upstream/master                                     | Step 4: merge changes (Änderungen zusammenfügen)
+$ git push -u origin master                                     | Step 5: push changes from upstream to remote repository (your fork)
+Tip: Syncing your fork only updates your local copy of the repository.  |   To update your fork on GitHub, you must push your changes.
 $ git remote rm upstream  | if you want to remove the remote upstream
+|||
 Git Config  | Cloud9 is preconfigured, get and set configuration variables
 $ git config --list     |   have a look
 $ git config --global user.name "John Doe"  | set/change your user name
@@ -32,7 +43,7 @@ $ git mv [xyzFolder/previousFolderName] [xyzFolder/newFolderName]   |   rename f
 $ git mv commandline/Basic-cammands/ commandline/Basics-commands    |   rename folder from "Basic-cammands" to "Basics-commands"
 
 
-Tip: Syncing your fork only updates your local copy of the repository. To update your fork on GitHub, you must push your changes.
+
 
 ```
 Via Twitter ;-)
