@@ -5,14 +5,31 @@
 Command                     |   Explanation
 ----------------------------|   ----------------
 $ pwd                       |   print working directory
+|||
 $ ls                        |	list files and folders
 $ ls -l                     |	list long
 $ ls -al                    |	list all long (lists hidden directories)
-$ less                      |	viewing files (q for quit)
-$ less	[filename]          |	e.g. "less myApp.js"
-$ file                      |	shows file information
-$ file  [filename]          |   e.g "file myApp.js"
-$ mkdir [directory_name]    |   make new directory (folder)
+|||
+$ less                      |	viewing textfiles(readonly) (q for quit)
+$ less [filename]          |	open file with less(readonly) as a general rule
+$ less myApp.js             |   open "myApp.js" with less in readonly mode
+|||
+$ file  [filename]          |   show file information as a general rule
+$ file file myApp.js        |   show information about "file myApp.js"
+|||
+$ touch   [filename]        |   create empty file as a general rule
+$ touch   myFile.js         |   create empty file "myFile.js"
+$ touch /path/to/file.js    |   create empty file "file.js" in folder "/path/to/"
+$ touch /cog01/javascript-basics/mytest.js  | sample
+|||
+$ mkdir [directory_name]    |   create new directory(folder) as a general rule
+$ mkidr myProjectFolder     |   create "myProjectFolder"
+|||
+$ rm [filename]             |   remove a file as a general rule
+$ rm myfile.js              |   removes "myfile.js"
+$ rm -r [foldername]        |   remove a folder or folders recursively as a general rule
+$ rm -r jsBasics            |   removes folder "jsBasics" an all folders within
+|||
 $ man   [program_name]      |   open manual of a program
 $ man man                   |   manual of man
 $ man git                   |   git manual
