@@ -42,7 +42,16 @@ CodePen
 A playground for the front end web.
 http://codepen.io/
 
-## Commandline 
+## Linux
+
+Linux-Praxisbuch
+https://de.wikibooks.org/wiki/Linux-Praxisbuch:_Inhaltsverzeichnis#Linux_f.C3.BCr_Anwender
+
+Linux von Johannes Plötner, Steffen Wendzel
+Das umfassende Handbuch
+http://openbook.rheinwerk-verlag.de/linux/
+
+#### Commandline 
 	
 The Command Line! And more by Ryans Tutorials
 http://ryanstutorials.net/linuxtutorial/commandline.php
@@ -62,6 +71,15 @@ http://cli.learncodethehardway.org/book/
 Linux/Unix , Ubuntu
 http://freeengineer.org/learnUNIXin10minutes.html
 
+## Hosting Services
+
+Uberspace 
+The Documantation (in German) is so useful for beginners and pros and makes it easy to use a Linux Server.
+https://uberspace.de/
+
+FAQ Uberspace
+https://wiki.uberspace.de/faq
+
 ## Git, Distributed-Version-Control (verteilte Versionsverwaltung)
 Git –everything-is-local incl. online book and “Try-Git” browser tool
 http://git-scm.com/ 
@@ -69,6 +87,9 @@ http://git-scm.com/
 Learning Git
 jlord/git-it 
 https://github.com/jlord/git-it 
+
+Git at Uberspace (German only)
+https://uberspace.de/
 
 A successful Git branching model:
 http://nvie.com/posts/a-successful-git-branching-model/
@@ -134,10 +155,19 @@ http://nodeschool.io/
 ## MongoDB 
 http://www.mongodb.org/ 
 
+
+"It's not my fault the chapters are short, MongoDB is just easy to learn." Karl Seguin
+
+The Little MongoDB Book by Karl Seguin
+http://openmymind.net/2011/3/28/The-Little-MongoDB-Book/
+
+and on Github 
+https://github.com/karlseguin/the-little-mongodb-book
+
 MongoDB Tutorials 
 http://docs.mongodb.org/manual/tutorial/ 
 
-Interactives MongoDB Tutorial
+Free Online Courses
 http://try.mongodb.org/
 
 ## Meteor.js 
