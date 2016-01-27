@@ -73,8 +73,9 @@ http://freeengineer.org/learnUNIXin10minutes.html
 
 ## Hosting Services
 
-Uberspace 
-The Documantation (in German) is so useful for beginners and pros and makes it easy to use a Linux Server.
+Uberspace
+
+The documentation (in German) is so useful for beginners and pros and makes it easy to use a Linux Server.
 https://uberspace.de/
 
 FAQ Uberspace
