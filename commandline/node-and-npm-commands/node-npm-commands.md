@@ -2,8 +2,9 @@
 
 ## Node Commands
 [Node.js](https://nodejs.org/en/)
+
 Command                     |   Explanation
-----------------------------|   ----------------
+-------------------------   |   ----------------
 $ node -v                   |   show node version
 |   |   |
 $ node [file]               |   run file with node
