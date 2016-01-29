@@ -21,6 +21,7 @@ undefined                   | no return value
 
 ## Node Package Manager(NPM) Commands
 [NPM websearch](https://www.npmjs.com/)
+
 Command                     |   Explanation
 ----------------------------|   ----------------
 $ npm list                  |   list of installed packages
