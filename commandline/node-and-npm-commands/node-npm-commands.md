@@ -16,7 +16,7 @@ fs.readFile('./movies.csv', function(e, data) { |   call fs.readfile(), you nead
 ... console.log(data);      |   log data
 ... })                      |   close function
 undefined                   | no return value
- > <Buffer 74 69 74 6c 65 3b ...>   |  is what the REPL will say
+> \<Buffer 74 69 74 6c 65 3b ...>   |  is what the REPL will answer
 
 
 ## Node Package Manager(NPM) Commands
