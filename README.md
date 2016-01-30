@@ -20,13 +20,14 @@ and makes coding accessible for artists, designers, educators, and beginners.
 ## [Commandline](https://github.com/Goyapa/COG-01/tree/master/commandline)
 Cloud9 gives us acces to Linux servers and as such to the commandline.
 
-#### [Basic commands](https://github.com/Goyapa/COG-01/tree/master/commandline/Basic-cammands)
+#### [Terminal commands](https://github.com/Goyapa/COG-01/tree/master/commandline/Basic-cammands)
 Basic shell commands for navigation in file system etc.
 
 #### [Git commands](https://github.com/Goyapa/COG-01/tree/master/commandline/Git-commands)
-Basic git commands starting with Git and use GitHub to store the repositories.
+Basic Git commands and use of GitHub to store the repositories.
 
 #### [Node and NPM commands](https://github.com/Goyapa/COG-01/tree/master/commandline/node-and-npm-commands)
+Basic Node server side and NPM package manager commands.
 
 ## [Node.js](https://github.com/Goyapa/COG-01/tree/master/nodejs)
 Node.js is an JavaScript runtime environment.
