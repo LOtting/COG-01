@@ -11,7 +11,7 @@ This integrated development environment (IDE) gives us a projectfolder structure
 A full Ubuntu workspace in the cloud.
 
 ## [JavaScript basics](https://github.com/Goyapa/COG-01/tree/master/javascript-basics)
-Introduction to objects, functions and controll structures.
+Introduction to objects, functions and control structures.
 
 ## [P5.js](https://github.com/Goyapa/COG-01/tree/master/p5js)
 p5.js is a JavaScript client-side library for creating graphic and interactive experiences,
