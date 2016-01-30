@@ -116,4 +116,4 @@ function convert(e, raw, cb) {
 JSONy.HEAD = 1; // use first line as header
 JSONy.convert = convert;
 
-module.exports = JSONy
+module.exports = JSONy;
