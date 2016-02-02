@@ -1,20 +1,20 @@
 # Basic Git commands
 
-Command                                                         | Explanation
--------                                                         | ------------
-$ git init                                                      | Initial Step, move to Step 1 or Step 4: Creates a new local repository (Repositorium, Aufbewahrungsort)
+Command                                                         |   Explanation
+-------                                                         |   ------------
+$ git init                                                      |   Initial Step: Creates a new local repository (Repositorium, Aufbewahrungsort), move to Step 1 or Step 4.
 |||
-$ git status                                                    | Step 1: shows git's actual status: Changes, untracked files etc.
+$ git status                                                    |   Step 1: shows git's actual status: Changes, untracked files etc.
 |||
-$ git add [filename]                                            |  Step 2: add changes to INDEX(Liste) as a general rule
+$ git add [filename]                                            |   Step 2: add changes to INDEX(Liste) as a general rule
 $ git add myScript.js                                           |   add "myScript.js" to the INDEX also called the Stage
 |||
-$ git commit -m 'description'                                   |   Step 3 - repeat at Step 1 or move to Step 5: Commit (übergebe) changes as a general rule
+$ git commit -m 'description'                                   |   Step 3: Commit (übergebe) changes as a general rule, repeat at Step 1 or move to Step 5.
 $ git commit -m "Fix typo in introduction to user guide"        |   The description should give the reader a hint what was done. 
-$ git commit                                                    | [How to Write a Git Commit Message](http://chris.beams.io/posts/git-commit/)
+$ git commit                                                    |   [How to Write a Git Commit Message](http://chris.beams.io/posts/git-commit/)
 |||
 GitHub                                                          |   the following commands are more specific to remote repositories
-$ git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY    |   Step 4, move to Step 1:  Clone remote repository 
+$ git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY    |   Step 4:  Clone remote repository, move to Step 1.
 $ git clone https://github.com/Goyapa/COG-01.git                |   sample
 $ git remote -v                                                 |   List the current configured remote repository of your fork.
 $ git push -u origin master                                     |   Step 5: Push changes to remote repository (your fork)
