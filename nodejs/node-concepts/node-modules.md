@@ -64,7 +64,7 @@ You know as "console.log()"
 
 Application Programming Interface (API) and Sourcecode at GitHub.
 
-### v.0.12
+### v0.12
 API: https://nodejs.org/docs/latest-v0.12.x/api/console.html
 
 Github Source: https://github.com/nodejs/node/blob/v0.12/lib/console.js
@@ -82,4 +82,4 @@ API: https://nodejs.org/dist/latest-v5.x/docs/api/console.html
 Github Source: https://github.com/nodejs/node/blob/v5.x/lib/console.js
 
 
-##### Find, use and change Sourcecode was never easier!
+##### Find, using and changing Sourcecode was never easier!

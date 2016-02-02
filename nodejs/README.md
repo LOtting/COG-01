@@ -7,3 +7,12 @@ to optimize an application's throughput and scalability for real-time web applic
 On Cloud9 IDE Node.js is pre installed.
 
 Start with interactive-mode.md in examples folder and than follow xy-server.js files by number.
+
+
+
+## [Teach Yourself Node.JS in 10 Steps](https://ponyfoo.com/articles/teach-yourself-nodejs-in-10-steps)
+A little bit outdated but worth reading.
+
+## Node Info Graphics
+https://www.engineyard.com/infographics/nodejs
+https://strongloop.com/node-js/nodejs-infographic/
