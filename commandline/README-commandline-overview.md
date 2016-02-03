@@ -1,10 +1,10 @@
-## [Terminal commands](https://github.com/Goyapa/COG-01/tree/master/commandline/Basic-commands)
+## [Terminal commands](https://github.com/Goyapa/COG-01/blob/master/commandline/Basics-commands/commandline-basics.md)
 Basic shell commands for navigation in file system etc.
 
-## [Git commands](https://github.com/Goyapa/COG-01/tree/master/commandline/Git-commands)
+## [Git commands](https://github.com/Goyapa/COG-01/blob/master/commandline/Git-commands/Git-basic-commands.md)
 Basic Git commands and use of GitHub to store the repositories.
 
-## [Node and NPM commands](https://github.com/Goyapa/COG-01/tree/master/commandline/node-and-npm-commands)
+## [Node and NPM commands](https://github.com/Goyapa/COG-01/blob/master/commandline/node-and-npm-commands/node-npm-commands.md)
 Basic Node server side and NPM package manager commands.
 
 ## [MongoDB commands](https://github.com/Goyapa/COG-01/blob/master/commandline/MongoDB-commands/mongodb-commands.md)
