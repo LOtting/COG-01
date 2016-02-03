@@ -1,5 +1,7 @@
 # MongoDB Commands
 
+The mongo shell is an interactive JavaScript interface to MongoDB.
+You can use the mongo shell to query and update data as well as perform administrative operations.
 
 ## [Setting Up MongoDB at Cloud9](https://docs.c9.io/docs/setting-up-mongodb)
 
