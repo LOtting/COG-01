@@ -17,8 +17,8 @@ Introduction to objects, functions and control structures.
 p5.js is a JavaScript client-side library for creating graphic and interactive experiences,
 and makes coding accessible for artists, designers, educators, and beginners.
 
-## [Commandline (Shell)](https://github.com/Goyapa/COG-01/blob/master/README-commandline-overview.md)
-Cloud9 gives us access to Linux servers and as such to the commandline.
+## [Terminal/Commandline (Shell)](https://github.com/Goyapa/COG-01/blob/master/commandline/README-commandline-overview.md)
+Cloud9 gives us access to Linux servers and as such to the terminal and commandline.
 
 ## [Node.js](https://github.com/Goyapa/COG-01/tree/master/nodejs)
 Node.js is an JavaScript runtime environment.
