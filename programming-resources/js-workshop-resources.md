@@ -14,191 +14,199 @@ Meteor Account for Meteor Pad and deployment
 English, the world wide language of open source programming projects and communities
 
 ## Browsers
-Firefox
+[Firefox](https://www.mozilla.org/de/firefox/desktop/)
 
-https://developer.mozilla.org/de/docs/Tools/Seiten_Inspektor
+[Page Inspector](https://developer.mozilla.org/en-US/docs/Tools/Page_Inspector)
 
-https://developer.mozilla.org/en-US/docs/Tools/Page_Inspector
+[Developer Editon](https://www.mozilla.org/en-US/firefox/developer/)
 
-https://www.mozilla.org/en-US/firefox/developer/
+[Chrome](https://www.google.de/chrome/browser/desktop/)
 
-Chrome
+[Chrome DevTools](https://developer.chrome.com/devtools)
 
-https://developer.chrome.com/devtools
-
-http://discover-devtools.codeschool.com/
+[Explore and Master Chrome DevTools](http://discover-devtools.codeschool.com/)
 
 ## Editors
-Cloude 9
-https://c9.io
 
-Atom
-https://atom.io/
+[Cloude 9](https://c9.io)
+
+[Atom](https://atom.io/)
 		
-Webstorm IDE
-https://www.jetbrains.com/webstorm/
+[Webstorm IDE](https://www.jetbrains.com/webstorm/)
 
-CodePen
+[CodePen](http://codepen.io/)
 A playground for the front end web.
-http://codepen.io/
 
-## Linux
+## Linux/Unix
+[Official Ubuntu Documentation](https://help.ubuntu.com/)
 
-Linux-Praxisbuch
-https://de.wikibooks.org/wiki/Linux-Praxisbuch:_Inhaltsverzeichnis#Linux_f.C3.BCr_Anwender
+[Ubuntu Manual Project](http://ubuntu-manual.org/)
 
-Linux von Johannes Plötner, Steffen Wendzel
-Das umfassende Handbuch
-http://openbook.rheinwerk-verlag.de/linux/
+[Linux-Praxisbuch](https://de.wikibooks.org/wiki/Linux-Praxisbuch:_Inhaltsverzeichnis#Linux_f.C3.BCr_Anwender)
+
+[Linux](http://openbook.rheinwerk-verlag.de/linux/) "Das umfassende Handbuch" von Johannes Plötner, Steffen Wendzel
 
 #### Commandline 
 	
-The Command Line! And more by Ryans Tutorials
-http://ryanstutorials.net/linuxtutorial/commandline.php
+[The Command Line!](http://ryanstutorials.net/linuxtutorial/commandline.php) by Ryans Tutorials
 
-The Linux Command Line
-http://linuxcommand.org/
+[The Linux Command Line](http://linuxcommand.org/) and a [Book](http://sourceforge.net/projects/linuxcommand/files/TLCL/13.07/TLCL-13.07.pdf/download) By William Shotts 
 
-and a Book By William Shotts 
-http://sourceforge.net/projects/linuxcommand/files/TLCL/13.07/TLCL-13.07.pdf/download
+[HOW TO USE THE COMMAND LINE](http://generalassembly.github.io/prework/cl/#/)
 
-HOW TO USE THE COMMAND LINE
-http://generalassembly.github.io/prework/cl/#/
+[The Command Line Crash Course](http://cli.learncodethehardway.org/book/)
 
-The Command Line Crash Course
-http://cli.learncodethehardway.org/book/
+[Learn UNIX in 10 minutes.](http://freeengineer.org/learnUNIXin10minutes.html)
 
-Linux/Unix , Ubuntu
-http://freeengineer.org/learnUNIXin10minutes.html
+## Linux Distributions
+
+[Ubuntu](http://www.ubuntu.com/desktop) is based on Debian
+
+[Linux Mint](http://www.linuxmint.com/)
+
+[Debian](https://www.debian.org/)
+
+[CentOS](https://www.centos.org/)
+
+[Puppy Linux](http://puppylinux.org/main/Overview%20and%20Getting%20Started.htm) only 155 MByte, just use a USB flash to boot a PC.
+
+[Linux From Scratch](http://www.linuxfromscratch.org/lfs/) (LFS) is a project that provides you with step-by-step instructions for building your own customized Linux system entirely from source.[Online-Book](http://www.linuxfromscratch.org/lfs/view/stable/)
+"One important reason for this project's existence is to help you learn how a Linux system works from the inside out. Building an LFS system helps demonstrate what makes Linux tick, and how things work together and depend on each other. One of the best things that this learning experience can provide is the ability to customize a Linux system to suit your own unique needs."
+
+
+[Get Linux](http://www.chip.de/downloads/Get-Linux_60004886.html) Die Freeware "Get Linux" führt Sie schnell und unkompliziert zu den aktuellsten und beliebtesten Linux-Distributionen.
 
 ## Hosting Services
 
-Uberspace
-
+[Uberspace](https://uberspace.de/)
 The documentation (in German) is so useful for beginners and pros and makes it easy to use a Linux Server.
-https://uberspace.de/
 
-FAQ Uberspace
-https://wiki.uberspace.de/faq
+
+[FAQ Uberspace](https://wiki.uberspace.de/faq)
+
 
 ## Git, Distributed-Version-Control (verteilte Versionsverwaltung)
-Git –everything-is-local incl. online book and “Try-Git” browser tool
-http://git-scm.com/ 
+[Git](http://git-scm.com/
+) –everything-is-local incl. online book and “Try-Git” browser tool
+ 
 
-Learning Git
-jlord/git-it 
-https://github.com/jlord/git-it 
+[Learning Git:](https://github.com/jlord/git-it) A workshopper for learning Git and GitHub.
+ 
 
-Git at Uberspace (German only)
-https://uberspace.de/
+[Git at Uberspace](https://uberspace.de/) (German only)
 
-A successful Git branching model:
-http://nvie.com/posts/a-successful-git-branching-model/
+[A successful Git branching model](http://nvie.com/posts/a-successful-git-branching-model/)
+
 
 ### Hosting project sources
-GitHub, Git projects hosting with free public projects.
-https://github.com/ 
+[GitHub](https://github.com/ ), Git projects hosting with free public projects.
 
-Bitbucket, Git projects hosting and free private projects.
-https://bitbucket.org/
 
-## HTML(5)
-https://developer.mozilla.org/de/docs/Web/HTML/HTML5
+[Bitbucket](https://bitbucket.org/), Git projects hosting and free private projects.
 
-## DOM
 
-http://de.wikipedia.org/wiki/Document_Object_Model 
-https://developer.mozilla.org/en-US/docs/Web/API/Document_Object_Model/Introduction
+## HyperText Markup Language (HTML)
+[Mozilla Developer Network: HTML](https://developer.mozilla.org/de/docs/Web/HTML/HTML5
+)
+
+## Document Object Model (DOM)
+
+[Mozilla Developer Network: DOM](https://developer.mozilla.org/en-US/docs/Web/API/Document_Object_Model/Introduction)
+ 
  
 ## JavaScript
 
-Referenz https://developer.mozilla.org/de/docs/Web/JavaScript
+[Mozilla Developer Network: Referenz](https://developer.mozilla.org/de/docs/Web/JavaScript)
 
-JavaScript The Right Way
-http://jstherightway.org/#the-good-parts
+[JavaScript The Right Way](http://jstherightway.org/#the-good-parts)
 
-Babel, ES2015, ES6
-https://babeljs.io/
+[Babel](https://babeljs.io/), ES2015, ES6
+
 
 ## JSLint/JSHint
-JavaScript: The Good Parts, by Douglas Crockford
-http://www.jslint.com/
-http://jshint.com/
+[JavaScript: The Good Parts](http://bdcampbell.net/javascript/book/javascript_the_good_parts.pdf), by Douglas Crockford
 
-## CSS
-https://developer.mozilla.org/en-US/docs/Web/CSS
+The Principle of the Good Parts is
 
-Pure.css: A set of small, responsive CSS modules that you can use in every web project. Incl. Skin Builder 
-http://purecss.io/
+If a feature is sometimes useful and sometimes dangerous and if there is a better option then always use the better option.
 
-Bootstrap
-http://getbootstrap.com/
+[JSLint](http://www.jslint.com/) is a JavaScript program that looks for problems in JavaScript programs. It is a code quality tool.
+
+[JSHint](http://jshint.com/), A Static Code Analysis Tool for JavaScript
+
+## Cascading Style Sheets (CSS)
+[Mozilla Developer Network: CSS](https://developer.mozilla.org/en-US/docs/Web/CSS)
+
+[Pure.css](http://purecss.io/): A set of small, responsive CSS modules that you can use in every web project. Incl. Skin Builder 
+
+
+[Bootstrap](http://getbootstrap.com/): Bootstrap is the most popular HTML, CSS, and JS framework for developing responsive, mobile first projects on the web.
+
 
 ## Markdown
-Markdown is a text-to-HTML conversion tool for web writers.
+[Markdown](https://daringfireball.net/projects/markdown/) is a text-to-HTML conversion tool for web writers.
 Markdown allows you to write using an easy-to-read,
 easy-to-write plain text format,
 then convert it to structurally valid HTML.
-https://daringfireball.net/projects/markdown/
 
-Markdown Tutorial
-http://markdowntutorial.com/
 
-Markdown Cheatsheet
-https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet
+[Markdown Tutorial](http://markdowntutorial.com/)
+
+
+[Markdown Cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
+
 
 
 ## Node.js 
-is a platform built on Chrome's JavaScript runtime for easily building fast, scalable network applications. 
-http://nodejs.org/ 
-http://nodeschool.io/ 
+[Node](http://nodejs.org/)is a platform built on Chrome's JavaScript runtime for easily building fast, scalable network applications. 
+ 
+[Node Tutorials](http://nodeschool.io/)
 
 ## MongoDB 
-http://www.mongodb.org/ 
+[MongoDB](http://www.mongodb.org/)
 
 
 "It's not my fault the chapters are short, MongoDB is just easy to learn." Karl Seguin
 
-The Little MongoDB Book by Karl Seguin
-http://openmymind.net/2011/3/28/The-Little-MongoDB-Book/
+[The Little MongoDB Book](http://openmymind.net/2011/3/28/The-Little-MongoDB-Book/) by Karl Seguin
 
-and on Github 
-https://github.com/karlseguin/the-little-mongodb-book
 
-MongoDB Tutorials 
-http://docs.mongodb.org/manual/tutorial/ 
+and on [Github](https://github.com/karlseguin/the-little-mongodb-book) 
 
-Free Online Courses
-http://try.mongodb.org/
+
+[MongoDB Tutorials](http://docs.mongodb.org/manual/tutorial/) 
+ 
+
+[Free MongoDB Online Courses](http://try.mongodb.org/)
+
 
 ## Meteor.js 
-is a complete platform for building web and mobile apps in pure JavaScript. 
-https://www.meteor.com/ 
+[Metoer](https://www.meteor.com/) is a complete platform for building web and mobile apps in pure JavaScript. 
+ 
 
-What is Meteor.js?
-http://goo.gl/oDboFU
+[What is Meteor.js?](http://goo.gl/oDboFU)
 
-Building a Meteor App at Cloud9 IDE: 
-https://docs.c9.io/docs/meteor and than
-https://www.meteor.com/tutorials/blaze/creating-an-app
 
-Meteor Commandline
-http://docs.meteor.com/#/full/commandline
+[Building a Meteor App at Cloud9 IDE](https://docs.c9.io/docs/meteor) and than
+[create an Meteor APP](https://www.meteor.com/tutorials/blaze/creating-an-app).
 
-Mongo-duino-meteor 
-https://github.com/Goyapa/mongoduinometeor 
+[Meteor Commandline](http://docs.meteor.com/#/full/commandline) (Shell)
 
-WHY METEOR?
-http://differential.com/blog/meteor-killin-rails
 
-Is Meteor Production-Ready? Our First-Hand Experience
-http://goo.gl/QYMbwZ
+[Mongo-Duino-Meteor](https://github.com/Goyapa/mongoduinometeor) a Internet of Things (IoT) sample project.
+ 
+
+[WHY METEOR?](http://differential.com/blog/meteor-killin-rails)
+
+
+[Is Meteor Production-Ready?](http://goo.gl/QYMbwZ) Our First-Hand Experience
+
 
 
 ## Learning resources
-DevDocs combines multiple API documentations in a fast,
+[DevDocs](http://devdocs.io/) combines multiple API documentations in a fast,
 organized, and searchable interface. (Offline mode)
-http://devdocs.io/
+
 
 Web technology for developers
 https://developer.mozilla.org/en-US/docs/Web
