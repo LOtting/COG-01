@@ -109,8 +109,7 @@ for (var i = 0, len = arr.length; i < len; i++) {  // short form (var i = 0; i <
 console.log(arr[i]);
 }
 
-// functional style
-// functional forEach
+// functional style forEach
 var arr = [1, 2, 3];
 arr.forEach(function(element, index) {
     console.log(element);
@@ -123,7 +122,9 @@ arr.forEach(function(element, index) {
 ## Read this only if you are interested in more details or come back later!
 
 
-#Mozilla Developer Neztwork (MD)
+# Mozilla Developer Neztwork (MD)
+
+## [Browser Standard built-in objects](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects)
 
 ## Grammar and types:
 https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Grammar_and_types

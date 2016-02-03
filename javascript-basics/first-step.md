@@ -1,74 +1,102 @@
-// This is a comment, see http://www.w3schools.com/js/js_comments.asp
+# First Steps
 
-// JavaScript reference
-// https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference
+## [JavaScript reference](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference)
 
+## [Comments](http://www.w3schools.com/js/js_comments.asp)
 
-// Insert the console.log() function call into a "New Immediate Window" (click on plus sign in the editor, there you will find "New Immediate Window")
-// > console.log("hello world");
+```javascript
+// This is a comment 
+```
+## [Console](https://developer.mozilla.org/en-US/docs/Web/API/Console) 
+##### The Console object provides access to the browser's debugging console.
+##### The [console.log()](https://developer.mozilla.org/en-US/docs/Web/API/Console/log) methode outputs a message to the Web Console.
+```javascript
+console.log("hello world universal sample");
+```
+For general output of logging information. 
 
-console.log("hello world at Immediate Window");
+In the Browser Development Tools() of Firefox or Chrome etc.
+```javascript
+> console.log("hello world in the browser");
+```
 
-
-/*
- Or run this in the terminal with node.js
+Or run this in the terminal with node.js
+If you run node in the Terminal you will get a ["Read Eval Print Loop"(REPL)](https://github.com/Goyapa/COG-01/blob/master/commandline/node-and-npm-commands/node-npm-commands.md).
+```javascript
   $ node          // ->return
-  > console.log("hello world");
+  > console.log("hello world node");
   hello world     // response
   undefined
-*/
-console.log("hello world node.js");
+```
 
 
-// Or in the Browser Development Tools()
-console.log("hello world in the browser");
+Insert the console.log() function call into a "New Immediate Window" (click on plus sign in Cloud9 editor, there you will find "New Immediate Window")
+```javascript
+ > console.log("hello world at Immediate Window");
+```
+ Hint: Immediate Window is like a Browser Console prepared for you from Cloud9. 
 
-// Hint: Immediate Window is like a Browser Console prepared for you from Cloud9. If you run node in the Terminal you will get a "Read Eval Print Loop"(REPL).
 
-
-/*
- The variable "var" statement declares a variable, optionally initializing it to a value.
- https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/var
-*/
+## [Variables](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/var)
+The "var" statement declares a variable,
  
-// Strings https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String
+```javascript
+var zero;
+```
+optionally initializing it to a value.
+```javascript
+var zero = 0;
+```
+
+## [Strings](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String)
+
+```javascript
 var myVariableAsString = "I am a String";
 console.log(myVariableAsString);
-
-// Number http://www.w3schools.com/jsref/jsref_obj_number.asp
+```
+## [Number](http://www.w3schools.com/jsref/jsref_obj_number.asp)
+```javascript
 var myVariableAsNumber = 42;
 console.log(myVariableAsNumber);
+```
 
-
-// Objects and Arrays are explained in detail later!
+## Objects and Arrays are explained later in detail !
+```javascript
 var myVariableAsObject = { key: "value"};
 console.log(myVariableAsObject.key);
-
+```
+```javascript
 var myVariableAsArray = ['cat', 'dog', 'bird'];
 console.log(myVariableAsArray[0]);  // cat
 console.log(myVariableAsArray[1]);  // dog
 console.log(myVariableAsArray[2]);  // bird
 console.log(myVariableAsArray[3]);  // undefined
+```
 
 
 
+## Read the following only if you are interested in more details or come back later!
 
-// Read this only if you are interested in more details or come back later!
 
-/*
- Are you able to distinguish if you are in a Node.js(Backend, Server) or Browser(Frontend, Client) REPL?
- In the "Browser" console you can type 
+Are you able to distinguish if you are in a Node.js(Backend, Server) REPL or Browser(Frontend, Client) Console?
+
+
+In the "Browser" console you can type
+```javascript
  > window        // you will see the Window Object which is the root of the DocumentObjectModel(DOM)
  Window {...}
- 
+```
+
  If you insert process
+```javascript
  > process       // you will see a Reference Error cause you asking for an Object that only exists in Node.js(Backend)
  ReferenceError: process is not defined
+```
  
  
- 
- In the "Node.js" console you can type
- > global       // you will see the Global Object which is the root of Node.
+In the "Node.js" console you can type
+```javascript
+> global       // you will see the Global Object which is the root of Node.
  { global: [Circular],
   process: 
    process {
@@ -77,9 +105,12 @@ console.log(myVariableAsArray[3]);  // undefined
      moduleLoadList: 
       [ 'Binding contextify',
         'Binding natives',
-        'NativeModule events',
+        'NativeModule events',...]
+```
  
  or
+ 
+```javascript
  > process       // you will see the Process Object which gives information about the Node process e.g. "arch: 'x64' and  platform: 'linux'"
 process {
   title: 'node',
@@ -110,47 +141,45 @@ process {
   execArgv: [],
   env: 
    {}}
+
+```
  
  If you insert window
+```javascript
  > window        // you will see a Reference Error cause you asking for an Object that only exists in the Browser(Frontend)
  ReferenceError: window is not defined
 */
+```
 
-
-/*
 Node.js:
 
-https://nodejs.org/dist/latest-v4.x/docs/api/globals.html
-console.log():
-https://nodejs.org/dist/latest-v4.x/docs/api/console.html
+[Global Objects](https://nodejs.org/dist/latest-v4.x/docs/api/globals.html)
+
+[Node console.log() method](https://nodejs.org/dist/latest-v4.x/docs/api/console.html)
 
 
 Browser:
 
-Window:
-https://developer.mozilla.org/en-US/docs/Web/API/Window
-Window.document:
-https://developer.mozilla.org/en-US/docs/Web/API/Window/document
-Console:
-https://developer.mozilla.org/en-US/docs/Web/API/Console
-Console.log()
-https://developer.mozilla.org/en-US/docs/Web/API/Console/log
-*/
+[Window Object](https://developer.mozilla.org/en-US/docs/Web/API/Window)
 
-/*
-Browser Developer Tools:
+[Window.document](https://developer.mozilla.org/en-US/docs/Web/API/Window/document)
+
+[Console Object](https://developer.mozilla.org/en-US/docs/Web/API/Console) provides access to the browser's debugging console (e.g., the [Web Console](https://developer.mozilla.org/en-US/docs/Tools/Web_Console) in Firefox).
+
+[Browser Console.log() method](https://developer.mozilla.org/en-US/docs/Web/API/Console/log)
+
+## Browser Developer Tools:
 
 Chrome:
-https://developer.chrome.com/devtools
+
+[Devtools](https://developer.chrome.com/devtools)
 
 Firefox:
-https://developer.mozilla.org/en-US/docs/Tools/Page_Inspector
-https://developer.mozilla.org/en-US/docs/Tools
 
-https://addons.mozilla.org/de/firefox/addon/firebug/
-*/
+[Page Inspector](https://developer.mozilla.org/en-US/docs/Tools/Page_Inspector)
 
+[Tools](https://developer.mozilla.org/en-US/docs/Tools)
 
-/* Grammar and types
-https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Grammar_and_types#Basics
-*/
+[Firebug](https://addons.mozilla.org/de/firefox/addon/firebug/)
+
+## [JavaScript Grammar and types](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Grammar_and_types#Basics)
