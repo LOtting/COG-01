@@ -11,7 +11,7 @@ Cloud9 IDE we prefer for our school programming workshop, cause of restrictions 
 This integrated development environment (IDE) gives us a projectfolder structure, editor and a terminal.
 A full Ubuntu workspace in the cloud.
 
-## [JavaScript basics](https://github.com/Goyapa/COG-01/tree/master/javascript-basics)
+## [JavaScript basics](https://github.com/Goyapa/COG-01/blob/master/javascript-basics/README-javascript.md)
 Introduction to objects, functions and control structures.
 
 ## [P5.js](https://github.com/Goyapa/COG-01/tree/master/p5js)
