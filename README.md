@@ -5,7 +5,7 @@
 We use JavaScript as our programming language for the behavior,
 HTML as the base structure and CSS for styling.
 
-## [Hello world](https://github.com/Goyapa/COG-01/tree/master/hello-world)
+## [Cloud 9 IDE (Hello world)](https://github.com/Goyapa/COG-01/blob/master/hello-world/README-setup-C9.md)
 Cloud9 IDE we prefer for our school programming workshop, cause of restrictions on school PCs.
 This integrated development environment (IDE) gives us a projectfolder structure, editor and a terminal.
 A full Ubuntu workspace in the cloud.
