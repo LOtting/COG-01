@@ -1,5 +1,7 @@
 # Programming Workshop COG
 
+As in all endeavors, learning from mistakes is critically important. Each misstep, every failure contributes to the body of knowledge that will lead to mastery of the art of building software. Mendel Cooper
+
 ## Required Tools (Werkzeuge)
 Browser, Firefox incl. Firebird or Chrome
 
