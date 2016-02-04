@@ -11,9 +11,9 @@ MongoDB is preinstalled in your workspace.
 Command                     |   Explanation
 ----------------------------|   ----------------
 $ npm install mongodb       |   In your project folder you need the [MongoDB NPM Package](https://www.npmjs.com/package/mongodb)
-$ mkdir data                |   Mongodb "data" will be stored in the folder "data".
-$ echo 'mongod --bind_ip=$IP --dbpath=data --nojournal --rest "$@"' > mongod |   To run MongoDB, run this  (passing the correct parameters to it).
-$ chmod a+x mongod          | make mongod executable
+$ mkdir data                |   MongoDB "data" will be stored in the folder "data".
+$ echo 'mongod --bind_ip=$IP --dbpath=data --nojournal --rest "$@"' > mongod |   To run MongoDB, run this (passing the correct parameters to it).
+$ chmod a+x mongod          |   make mongod file executable
 |||
 $ ./mongod                  |   You can start MongoDB by running the "mongod" script on your project root.
 |||
