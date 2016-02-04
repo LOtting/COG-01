@@ -21,7 +21,7 @@ $ ./mongod                  |   You can start MongoDB by running the "mongod" sc
 ### MongoDB interactive Shell
 Command                     |   Explanation
 ----------------------------|   ----------------
-$ mongo                     |   In a second Shell run this after ./mongod is executed
+$ mongo                     |   In a second Terminal run this after ./mongod is executed
 > show dbs                  |   List All Databases
 > use [yourDB]              |   Switch to "yourDB" as a general rule
 > use COG-01                |   Answer "switched to db COG-01"
