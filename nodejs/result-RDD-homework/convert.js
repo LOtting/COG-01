@@ -1,7 +1,7 @@
 #!/usr/bin/env node
 
 
-
+// Step Keeping it DRY:
 /*
 var jsony = require('./jsony');
 
@@ -15,7 +15,7 @@ jsony.load('./movies.csv', function(e, raw) {
 
 
 
-// Final Step, belongs to fourth Step of "jsony.js"
+// Final Step:  Belongs to the fourth Step of "jsony.js"
 
 var jsony = require('./jsony');
 

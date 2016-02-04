@@ -1,3 +1,7 @@
+// Link and results of the tutorial "Try RDD!": 
+// http://thinkingonthinking.com/scripting-a-csv-converter/
+
+
 // Step one 
 // Save your learnings
 
@@ -27,9 +31,8 @@ JSONy.load = function(filename) {
 *
 */
 
-// TODO at: To come back to our original goal, converting CSV into JSON,
 
-// Step 2
+// Step 2: You can add a callback hook in the load function of ‘jsony.js’ as follows:
 /*
 var fs = require('fs');
 var JSONy = function() {};
@@ -37,11 +40,11 @@ var JSONy = function() {};
 JSONy.load = function(filename, cb) {
   fs.readFile(filename, cb);
 }
-module.exports = JSONy
+module.exports = JSONy;
 */
 
 
-// Step 3
+// Step 3: The previous insights and new sketches for code ideas are the right amount of code to add into the JSONy module as follows:
 /*
 var fs = require('fs');
 var JSONy = function() {};
@@ -78,7 +81,7 @@ module.exports = JSONy
 
 
 
-// Step 4, belongs to Final Step of "convert.js"
+// Step 4:  Belongs to the Final Step of "convert.js"
 /*
 var fs = require('fs');
 // This line is implicit cause of using the Underscore JavaScript library, you have to "npm install underscore"
@@ -144,7 +147,7 @@ module.exports = JSONy;
 
 
 // Step 5 Refactoring jsony.js
-
+/*
 var fs = require('fs');
 // This line is implicit cause of using the Underscore JavaScript library, you have to "npm install underscore"
 // Underscore is a JavaScript library that provides a whole mess of useful functional programming helpers without extending any built-in objects. http://underscorejs.org/
@@ -203,3 +206,4 @@ JSONy.HEAD = 1; // use first line as header
 JSONy.convert = convert;
 
 module.exports = JSONy;
+*/
