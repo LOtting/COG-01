@@ -71,8 +71,8 @@ console.log(myVariableAsArray[2]);  // bird
 console.log(myVariableAsArray[3]);  // undefined
 ```
 
+## Read the following lines only if you are interested in more details or come back later!
 
-#### Read the following only if you are interested in more details or come back later!
 
 
 ### [JavaScript reference](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference)
