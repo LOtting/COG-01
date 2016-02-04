@@ -9,6 +9,6 @@ JavaScript® (often shortened to JS) is a lightweight, interpreted, object-orien
 
 ## [Objects](https://github.com/Goyapa/COG-01/blob/master/javascript-basics/objects-sample.md)
 
-## [FreeCodeCamp](https://github.com/Goyapa/COG-01/blob/master/javascript-basics/links-freecodecamp-samples)
+## [FreeCodeCamp](https://github.com/Goyapa/COG-01/blob/master/javascript-basics/links-freecodecamp-samples.md)
 
 ## [JavaScript reference](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference)
