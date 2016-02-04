@@ -2,7 +2,8 @@
 Learn to code and maybe help nonprofits. ;-)
 
 Creat a freeCodeCamp account with your first and lastname.
-Log in before you edit and run a waypoint, your results will be saved for you.
+
+#### Log in before you edit and run a waypoint, your results will be saved for you.
 
 We will use this waypoints in class and for homework!
 
