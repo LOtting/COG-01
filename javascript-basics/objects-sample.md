@@ -8,6 +8,9 @@ Objects sometimes refer to real-world things, for example a car or map object in
 var objA = {};                  // empty Object
 objA.name = "My Object A";      // give objA a property(eine Eigenschaft)
 
+console.log(objA);              // Object {name: "My Object A"}
+
+
 // Basic object notation, keys are identifiers
 var obj = {
     key1: "valueOne",  
