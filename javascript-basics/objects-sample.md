@@ -122,21 +122,33 @@ arr.forEach(function(element, index) {
 ```
 
 
-## Read this only if you are interested in more details or come back later!
+# Read this only if you are interested in more details or come back later!
 
 
-# Mozilla Developer Neztwork (MD)
-
-## [Browser Standard built-in objects](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects)
-
-## Grammar and types:
-https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Grammar_and_types
-
-## Object:
-https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Working_with_Objects
-https://developer.mozilla.org/de/docs/Web/JavaScript/Guide/Grammatik_und_Typen#Object_literals
+## Mozilla Developer Neztwork (MD)
 
 
-## Array:
-https://developer.mozilla.org/de/docs/Web/JavaScript/Reference/Global_Objects/Array
-https://developer.mozilla.org/de/docs/Web/JavaScript/Guide/Grammatik_und_Typen#Array_literals
+### [Browser Standard built-in objects](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects)
+
+### [JavaScript grammar and types](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Grammar_and_types)
+
+### Object:
+[Objects in general](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Working_with_Objects)
+
+[Object literals](https://developer.mozilla.org/de/docs/Web/JavaScript/Guide/Grammatik_und_Typen#Object_literals)
+
+[Math object methodes](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math)
+
+### Array:
+
+[Array global object](https://developer.mozilla.org/de/docs/Web/JavaScript/Reference/Global_Objects/Array)
+
+[Array literals](https://developer.mozilla.org/de/docs/Web/JavaScript/Guide/Grammatik_und_Typen#Array_literals)
+
+[Array mutator methodes](https://developer.mozilla.org/de/docs/Web/JavaScript/Reference/Global_Objects/Array/prototype#Mutator_methods)
+
+[Array accessor methods](https://developer.mozilla.org/de/docs/Web/JavaScript/Reference/Global_Objects/Array/prototype#Accessor_methods)
+
+[Array iteration methods](https://developer.mozilla.org/de/docs/Web/JavaScript/Reference/Global_Objects/Array/prototype#Iteration_methods)
+
+[Array length propperty](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/length)

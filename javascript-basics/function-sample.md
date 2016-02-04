@@ -41,15 +41,22 @@ console.log( mySum );
 
 // Function Expressions
 // https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/function
-var multiplyValues = function(y) {
+var multiplyValues = function(x, y) {
+   return x * y;
+};
+
+multiplyValues(7, 6);
+
+
+var squareValues = function(y) {
    return y * y;
 };
 
-multiplyValues(7);
+squareValues(7);
 
 ```
 
-## Read this only if you are interested in more details or come back later!
+# Read this only if you are interested in more details or come back later!
 
 ## Mozilla Developer Neztwork (MDN)
 
