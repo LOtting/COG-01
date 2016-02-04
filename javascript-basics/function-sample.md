@@ -1,13 +1,14 @@
 # Functions in JavaScript
 
-```javascript
-// Function Statement
-// https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/function
+Functions are one of the fundamental building blocks in JavaScript. A function is a JavaScript procedure—a set of statements that performs a task or calculates a value. To use a function, you must define it somewhere in the scope from which you wish to call it.
 
+## [Function Statement](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/function)
+
+```javascript
 /* Principal function declaration
 
 function name() {
-    programmcode
+    program code
 }
 
 */
@@ -52,9 +53,8 @@ multiplyValues(7);
 
 ## Mozilla Developer Neztwork (MDN)
 
-### JavaScript
-https://developer.mozilla.org/en-US/docs/Web/JavaScript
+### [JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
 
-### Functions
-https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Functions
-https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/function
+### [Functions](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Functions)
+
+### [Function statement](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/function)
