@@ -1,13 +1,11 @@
 # First Steps
 
-## [JavaScript reference](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference)
-
-## [Comments](http://www.w3schools.com/js/js_comments.asp)
+### [Comments](http://www.w3schools.com/js/js_comments.asp)
 
 ```javascript
 // This is a comment 
 ```
-## [Console](https://developer.mozilla.org/en-US/docs/Web/API/Console) 
+### [Console](https://developer.mozilla.org/en-US/docs/Web/API/Console) 
 ##### The Console object provides access to the browser's debugging console.
 ##### The [console.log()](https://developer.mozilla.org/en-US/docs/Web/API/Console/log) methode outputs a message to the Web Console.
 ```javascript
@@ -37,7 +35,7 @@ Insert the console.log() function call into a "New Immediate Window" (click on p
  Hint: Immediate Window is like a Browser Console prepared for you from Cloud9. 
 
 
-## [Variables](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/var)
+### [Variables](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/var)
 The "var" statement declares a variable,
  
 ```javascript
@@ -48,19 +46,19 @@ optionally initializing it to a value.
 var zero = 0;
 ```
 
-## [Strings](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String)
+### [Strings](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String)
 
 ```javascript
 var myVariableAsString = "I am a String";
 console.log(myVariableAsString);
 ```
-## [Number](http://www.w3schools.com/jsref/jsref_obj_number.asp)
+### [Number](http://www.w3schools.com/jsref/jsref_obj_number.asp)
 ```javascript
 var myVariableAsNumber = 42;
 console.log(myVariableAsNumber);
 ```
 
-## Objects and Arrays are explained later in detail !
+### Objects and Arrays are explained later in detail !
 ```javascript
 var myVariableAsObject = { key: "value"};
 console.log(myVariableAsObject.key);
@@ -74,29 +72,58 @@ console.log(myVariableAsArray[3]);  // undefined
 ```
 
 
+======================================================================================
+#### Read the following only if you are interested in more details or come back later!
+======================================================================================
 
-## Read the following only if you are interested in more details or come back later!
+### [JavaScript reference](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference)
 
+### [JavaScript Grammar and types](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Grammar_and_types#Basics)
 
-Are you able to distinguish if you are in a Node.js(Backend, Server) REPL or Browser(Frontend, Client) Console?
+### [Document Object Model (DOM)](https://developer.mozilla.org/en-US/docs/Web/API/Document_Object_Model#HTML_interfaces)
+Window is the main JavaScript object root, aka the global object in a browser, also can be treated as the root of the document object model([DOM](http://stackoverflow.com/questions/9895202/what-is-the-difference-between-window-screen-and-document-in-javascript)).
 
+### Browser or Node?
+##### Are you able to distinguish if you are in a Node.js(Backend, Server) REPL or Browser(Frontend, Client) Console?
 
 In the "Browser" console you can type
 ```javascript
- > window        // you will see the Window Object which is the root of the DocumentObjectModel(DOM)
+ > window    // window object which is the root of the document object model(DOM)
  Window {...}
 ```
 
- If you insert process
+or type
 ```javascript
- > process       // you will see a Reference Error cause you asking for an Object that only exists in Node.js(Backend)
+ > window.document    // window.document or just document is the main object of the "visible" document object model(DOM)
+ #document
+  <!DOCTYPE html>
+  <html>
+   <head>...<head>
+   <body>...<body>
+   ...
+   </html>
+```
+
+```javascript
+ > window.screen    // window.screen is a small information object about physical screen dimensions
+ Screen {...}
+ >window.screen.width
+ 1920
+ >window.screen.hight
+ 1200
+```
+
+
+but if you insert process
+```javascript
+ > process    // you will see a "Reference Error" cause you asking for an object that only exists in Node.js(Backend)
  ReferenceError: process is not defined
 ```
  
  
 In the "Node.js" console you can type
 ```javascript
-> global       // you will see the Global Object which is the root of Node.
+> global       // you will see the "Global Object" which is the root of Node.
  { global: [Circular],
   process: 
    process {
@@ -111,7 +138,7 @@ In the "Node.js" console you can type
  or
  
 ```javascript
- > process       // you will see the Process Object which gives information about the Node process e.g. "arch: 'x64' and  platform: 'linux'"
+ > global.process    // you will see the "Process Object" which gives information about the Node process e.g. "arch: 'x64' and  platform: 'linux'"
 process {
   title: 'node',
   version: 'v4.1.1',
@@ -146,19 +173,18 @@ process {
  
  If you insert window
 ```javascript
- > window        // you will see a Reference Error cause you asking for an Object that only exists in the Browser(Frontend)
+ > window    // you will see a "Reference Error" cause you asking for an object that only exists in the Browser(Frontend)
  ReferenceError: window is not defined
-*/
 ```
 
-Node.js:
+#### Node.js:
 
 [Global Objects](https://nodejs.org/dist/latest-v4.x/docs/api/globals.html)
 
 [Node console.log() method](https://nodejs.org/dist/latest-v4.x/docs/api/console.html)
 
 
-Browser:
+#### Browser:
 
 [Window Object](https://developer.mozilla.org/en-US/docs/Web/API/Window)
 
@@ -168,13 +194,13 @@ Browser:
 
 [Browser Console.log() method](https://developer.mozilla.org/en-US/docs/Web/API/Console/log)
 
-## Browser Developer Tools:
+### Browser Developer Tools:
 
-Chrome:
+#### Google Chrome:
 
 [Devtools](https://developer.chrome.com/devtools)
 
-Firefox:
+#### Mozilla Firefox:
 
 [Page Inspector](https://developer.mozilla.org/en-US/docs/Tools/Page_Inspector)
 
@@ -182,4 +208,10 @@ Firefox:
 
 [Firebug](https://addons.mozilla.org/de/firefox/addon/firebug/)
 
-## [JavaScript Grammar and types](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Grammar_and_types#Basics)
+#### Microsoft Edge
+
+[F12 tools](https://msdn.microsoft.com/en-us/library/dn904498(v=vs.85).aspx)
+
+
+
+
