@@ -9,7 +9,7 @@ triangle()
 
 Create a folder p5-result and put a p5-duck.js with your result within it.
 Fill own list of function calls for changing colors and use rect() and triangle() creative.
-Commit your p5-duck.js file with Git to "your" Github COG-01 repository.
+Commit your p5-duck.js file with Git an push it to "your" Github COG-01 repository.
 
 ### Referenz:
 http://p5js.org/reference/
