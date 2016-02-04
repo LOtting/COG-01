@@ -15,11 +15,10 @@ http://p5js.org/reference/
 Fill own list of function calls for changing colors and use rect() and triangle() creative.
 
 ### Template: 
-A Duck ( fourth Picture ):
-http://nypost.com/2015/10/08/the-worlds-largest-rubber-duck-is-
-coming-to-new-york/
+[A Duck sample picture](http://nypost.com/2015/10/08/the-worlds-largest-rubber-duck-is-coming-to-new-york/) ( fourth Picture )
+
 
 Commit your p5-duck.js file with Git to "your" Github COG-01 repository.
 
 Homework:
-Creat a picture of your own with p5.js.
+Creat a second picture with p5.js.
