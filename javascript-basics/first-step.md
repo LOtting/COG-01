@@ -72,9 +72,8 @@ console.log(myVariableAsArray[3]);  // undefined
 ```
 
 
-======================================================================================
 #### Read the following only if you are interested in more details or come back later!
-======================================================================================
+
 
 ### [JavaScript reference](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference)
 
