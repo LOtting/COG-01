@@ -17,9 +17,14 @@ In this tutorial, we are going to create a simple app to manage a 'to do' list a
 
 ## [Basic Docs](http://docs.meteor.com/#/basic/): Overview of Meteor basics
 
-## [Full API](http://docs.meteor.com/#/full/): Detailed Docs
+## [Full API](http://docs.mSeteor.com/#/full/): Detailed Docs
 
 ## [Meteor Guide](http://guide.meteor.com/): This is a set of articles outlining opinions on best-practice application development using the Meteor platform.
 
 ## [ATMOSPHERE](https://atmospherejs.com/): The Meteor Package Manager
 
+## [Forum](https://forums.meteor.com/): This is a public discussion forum for Meteor
+This is a great place to introduce a project you're working on, get help with something, discuss a package or particular technical topic, or propose changes to Meteor.
+
+## [Meteor at Stack Overflow](http://stackoverflow.com/questions/tagged/meteor):
+If you need the answer to a technical question about how to do something in Meteor, the best place to start is Stack Overflow, a popular programming question and answer site. Stack Overflow is designed to help make sure answers to popular questions stay up to date as Meteor changes, so we try to steer most technical Q&A there.
