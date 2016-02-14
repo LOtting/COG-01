@@ -1,5 +1,14 @@
-# Basic Git commands
+# Git version control system
 
+#### Git is a free and open source distributed version control system([VCS](https://git-scm.com/book/en/v2/Getting-Started-About-Version-Control)).
+
+### [TryGit](https://try.github.io): 
+###### also have a look at [codeschool](https://www.codeschool.com/courses/try-git)
+
+### [Version Control System(VCS)](https://git-scm.com/book/en/v2/Getting-Started-About-Version-Control)
+### [Getting Started - Git Basics](https://git-scm.com/book/en/v2/Getting-Started-Git-Basics)
+
+## Basic Git commands
 Command                                                         |   Explanation
 -------                                                         |   ------------
 $ git init                                                      |   Initial Step: Creates a new local repository (Repositorium, Aufbewahrungsort), move to Step 1 or Step 4.
@@ -51,30 +60,44 @@ Sebastian McKenzie @sebmck  Jan 16
 I've started tracking how many hours I sleep by checking the time difference between my GitHub commits.
 ```
 
+### [Git Project](https://git-scm.com/)
 
-Docs:
-https://git-scm.com/
+### [Git Documentation](https://git-scm.com/doc)
 
-Online Book and Ebook:
-https://git-scm.com/book/en/v2
+### [Online Book and Ebook](https://git-scm.com/book/en/v2)
 
-tryGit: 				               // have a look at https://www.codeschool.com/courses/try-git
-https://try.github.io
 
-A workshopper for Git and GitHub:
-https://github.com/jlord/git-it
+## Git Branching: 
+Branching means you diverge from the main(e.g. Master) line of development and continue to do work without messing with that main line.
+Branches are used to develop features isolated from each other.
 
-git - the simple guide:
-http://rogerdudler.github.io/git-guide/
+### [Git Branching - Branches in a Nutshell](https://git-scm.com/book/en/v2/Git-Branching-Branches-in-a-Nutshell)
 
-A successful Git branching model:
-http://nvie.com/posts/a-successful-git-branching-model/
+### [A successful Git branching model](http://nvie.com/posts/a-successful-git-branching-model/)
 
-Git-branching-model.pdf:
-http://nvie.com/files/Git-branching-model.pdf
+### [Git branching model as pdf](http://nvie.com/files/Git-branching-model.pdf)
 
-GitHub Help:
-https://help.github.com/
+## GitHub:
 
-Collaborating on projects using pull requests
-https://help.github.com/categories/collaborating-on-projects-using-pull-requests/
+### [GitHub Help](https://help.github.com/)
+
+### [Collaborating on projects using pull requests](https://help.github.com/categories/collaborating-on-projects-using-pull-requests/)
+
+## Git Cheat Sheets:
+
+### [GitHub Cheat Sheet](https://training.github.com/kit/downloads/github-git-cheat-sheet.pdf)    
+
+### [Visual Git Cheat Sheet](http://ndpsoftware.com/git-cheatsheet.html)
+
+## Tools:
+
+### [Meld](http://meldmerge.org/) 
+Meld is a tool for comparing files and directories, and for resolving differences between them. It is also useful for comparing changes captured by version control systems(e.g. Git).
+
+## Other resources:
+
+### [Git - The Simple Guide](http://rogerdudler.github.io/git-guide/)
+
+### [A workshopper for Git and GitHub](https://github.com/jlord/git-it)
+
+
