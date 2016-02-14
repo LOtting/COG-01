@@ -40,7 +40,7 @@ $ mongo                     |   In a second terminal run this after ./mongod is 
 > db.students.find().sort({weight: -1}) |  Sample, shows heaviest "students" first
 |||
 > db.students.update() |   Overwrite existing document with a new document 
-> db.students.update({name: 'Aurora'}, {weight: 480})  |   sample
+> db.students.update({name: 'Aurora'}, {weight: 75})  |   sample
 |||
 > db.students.remove() |   [Delete(remove) Existing Document](https://docs.mongodb.org/manual/reference/method/db.collection.remove/)
 > db.students.remove({})    |   Remove/Reset all documents from a "students" collection
