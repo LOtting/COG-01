@@ -50,7 +50,9 @@ $ git mv [previousFilename] [newFilename]                           |   rename f
 $ git mv mySuper.js myHero.js                                       |   rename "mySuper.js" to "myHero.js"          
 $ git mv [xyzFolder/previousFolderName] [xyzFolder/newFolderName]   |   rename folder with git as a general rule
 $ git mv commandline/Basic-cammands/ commandline/Basics-commands    |   rename folder from "Basic-cammands" to "Basics-commands"
-
+|||
+$ git diff                                                          |   [git-diff](https://git-scm.com/docs/git-diff) - Show changes between commits, commit and working tree, etc
+$ git diff HEAD -- ./test                                           |   compare with the tip of the current branch, but limit the comparison to the file "test"
 
 
 
