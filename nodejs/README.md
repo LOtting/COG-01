@@ -11,14 +11,14 @@ Actually Node v4.2.3 is installed
 ```javascript
 $ nvm ls    // shows installed node versions
 ```
-### Your class tasks:
+## Your class tasks:
 Start with [interactive-mode.md](https://github.com/Goyapa/COG-01/blob/master/nodejs/examples/interactive-mode.md) in examples folder and than follow [xy-server.js](https://github.com/Goyapa/COG-01/tree/master/nodejs/examples) files by number.
 
-## Node Concepts
+## Node Concepts:
 
-### [Callback Functions](https://github.com/Goyapa/COG-01/blob/master/nodejs/node-concepts/callbacks.md)
+* [Callback Functions](https://github.com/Goyapa/COG-01/blob/master/nodejs/node-concepts/callbacks.md)
 
-### [Node Modules](https://github.com/Goyapa/COG-01/blob/master/nodejs/node-concepts/node-modules.md)
+* [Node Modules](https://github.com/Goyapa/COG-01/blob/master/nodejs/node-concepts/node-modules.md)
 
 ## [Teach Yourself Node.JS in 10 Steps](https://ponyfoo.com/articles/teach-yourself-nodejs-in-10-steps)
 A little bit outdated but worth reading.
@@ -26,7 +26,7 @@ A little bit outdated but worth reading.
 
 ## [Node interactive mode(REPL)](https://github.com/Goyapa/COG-01/blob/master/nodejs/examples/interactive-mode.md)
 
-## Node Info Graphics
+## Node Info Graphics:
 https://www.engineyard.com/infographics/nodejs
 
 https://strongloop.com/node-js/nodejs-infographic/
