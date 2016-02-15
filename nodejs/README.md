@@ -19,6 +19,10 @@ Start with [interactive-mode.md](https://github.com/Goyapa/COG-01/blob/master/no
 ## [Teach Yourself Node.JS in 10 Steps](https://ponyfoo.com/articles/teach-yourself-nodejs-in-10-steps)
 A little bit outdated but worth reading.
 
+
+## [Node interactive mode(REPL)](https://github.com/Goyapa/COG-01/blob/master/nodejs/examples/interactive-mode.md)
+
 ## Node Info Graphics
 https://www.engineyard.com/infographics/nodejs
+
 https://strongloop.com/node-js/nodejs-infographic/
