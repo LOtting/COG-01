@@ -1,5 +1,7 @@
 # Programming Workshop COG
 
+As in all endeavors, learning from mistakes is critically important. Each misstep, every failure contributes to the body of knowledge that will lead to mastery of the art of building software. Mendel Cooper
+
 ## Required Tools (Werkzeuge)
 Browser, Firefox incl. Firebird or Chrome
 
@@ -14,13 +16,13 @@ Meteor Account for Meteor Pad and deployment
 English, the world wide language of open source programming projects and communities
 
 ## Browsers
-[Firefox](https://www.mozilla.org/de/firefox/desktop/)
+#### [Firefox](https://www.mozilla.org/de/firefox/desktop/)
 
 [Page Inspector](https://developer.mozilla.org/en-US/docs/Tools/Page_Inspector)
 
 [Developer Editon](https://www.mozilla.org/en-US/firefox/developer/)
 
-[Chrome](https://www.google.de/chrome/browser/desktop/)
+#### [Chrome](https://www.google.de/chrome/browser/desktop/)
 
 [Chrome DevTools](https://developer.chrome.com/devtools)
 
@@ -204,130 +206,126 @@ and on [Github](https://github.com/karlseguin/the-little-mongodb-book)
 
 
 ## Learning resources
-[DevDocs](http://devdocs.io/) combines multiple API documentations in a fast,
+[DevDocs](http://devdocs.io/): combines multiple API documentations in a fast,
 organized, and searchable interface. (Offline mode)
 
 
-Web technology for developers
-https://developer.mozilla.org/en-US/docs/Web
+[Web technology for developers](https://developer.mozilla.org/en-US/docs/Web)
 
-JavaScript (jQuery), HTML, CSS 
-http://www.w3schools.com/ 
+[w3schools](http://www.w3schools.com/): JavaScript (jQuery), HTML, CSS 
+ 
 
-Codeschool 
+[Codeschool](https://www.codeschool.com/):
 Good free courses are “Try Git”, “Discover DevTools”, “Try jQuery”, 
 “JavaScript Road Trip Part 1”.
-https://www.codeschool.com/ 
+ 
 
-Node School : Javascript, Git, Node.js. MongoDB (learnyoumongo)
-http://nodeschool.io/ 
+[Node School](http://nodeschool.io/): Javascript, Git, Node.js. MongoDB (learnyoumongo)
+ 
 
-Nodebots 
-http://nodebots.io/
+[Nodebots](http://nodebots.io/): Robotics with Node.js 
 
-Meteor
-https://www.meteor.com/learn
-https://www.meteor.com/
-https://www.meteor.com/install
-http://docs.meteor.com/#/basic/
 
-Meteor Packages
-https://atmospherejs.com/
+[Meteor](https://www.meteor.com/)
 
-BulletProof Meteor
-https://bulletproofmeteor.com/packages
+[Meteor Packages](https://atmospherejs.com/)
 
-How to use Google Spreadsheets for TDD:
-http://www.uxebu.com/blog/2014/03/how-to-use-google-spreadsheets-for-tdd/
+[Metoer The official Guide](http://guide.meteor.com/)
 
-Jasmine:
-http://jasmine.github.io/2.0/introduction.html
+[BulletProof Meteor](https://bulletproofmeteor.com/packages)
 
-Jasmine tutorial:
-http://evanhahn.com/how-do-i-jasmine/
 
-JavaScript-Libraries (Bibliotheken)
-P5.js JavaScript library with the goal of make coding accessible for artists, designers and beginners.
-http://p5js.org/
-http://p5js.org/tutorials/debugging/
+### Advanced
+[How to use Google Spreadsheets for TDD](http://www.uxebu.com/blog/2014/03/how-to-use-google-spreadsheets-for-tdd/)
 
-jQuery write less, do more
-http://jquery.com/
-https://github.com/jquery/jquery
 
-three.js  A JavaScript 3D Library which makes WebGL simpler
-http://threejs.org/
-https://github.com/mrdoob/three.js/
+[Jasmine](http://jasmine.github.io/2.0/introduction.html)
 
-D3.js Data-Driven Documents 
-http://d3js.org/
-https://github.com/mbostock/d3
 
-Math.js An extensive math library for JavaScript and Node.js
-http://mathjs.org/
+[Jasmine tutorial](http://evanhahn.com/how-do-i-jasmine/)
+
+
+## JavaScript-Libraries (Bibliotheken)
+[P5.js](http://p5js.org/): JavaScript library with the goal of make coding accessible for artists, designers and beginners.
+
+[Howto Debug](http://p5js.org/tutorials/debugging/)
+
+[jQuery](https://github.com/jquery/jquery): write less, do more
+
+
+
+[three.js](http://threejs.org/):  A JavaScript 3D Library which makes WebGL simpler
+
+[three.js at GitHub](https://github.com/mrdoob/three.js/)
+
+[D3.js](http://d3js.org/): Data-Driven Documents 
+
+[D3.js at GitHub](https://github.com/mbostock/d3)
+
+[Math.js](http://mathjs.org/): An extensive math library for JavaScript and Node.js
+[Math.js at GitHub](https://github.com/josdejong/mathjs)
 
 ## JavaScript samples (Beispielprogramme)
-Some JavaScript Demos
-http://math.hws.edu/eck/jsdemo/index.html
+[Some JavaScript Demos](http://math.hws.edu/eck/jsdemo/index.html)
 
-Algorithm to find the area of a polygon
-http://www.mathopenref.com/coordpolygonarea2.html
 
-About the Genetic Algorithms Demo
-http://math.hws.edu/eck/jsdemo/jsGeneticAlgorithm.html
+[Algorithm to find the area of a polygon](http://www.mathopenref.com/coordpolygonarea2.html)
+
+
+[About the Genetic Algorithms Demo](http://math.hws.edu/eck/jsdemo/jsGeneticAlgorithm.html)
+
 
 ## Bibliography (Literaturliste)
 
-Best Source for free JavaScript E-Books 
-http://t3n.de/news/beste-quelle-kostenlose-472664/ 
-
-http://jsbooks.revolunet.com/
+[Best Source for free JavaScript E-Books](http://t3n.de/news/beste-quelle-kostenlose-472664/)
+ 
+[Free JavaScript books](http://jsbooks.revolunet.com/)
 
 
 ## Beginner online books:
 
-Eloquent JavaScript "second edition", SE nur in Englisch
-http://eloquentjavascript.net/
+[Eloquent JavaScript "second edition"](http://eloquentjavascript.net/), SE nur in Englisch
 
-Speaking JavaScript Axel Rauschmayer
-http://speakingjs.com/es5/
 
-JQuery fundamentals Rebecca Murphey
-http://jqfundamentals.com/
+[Speaking JavaScript](http://speakingjs.com/es5/) Axel Rauschmayer
 
-Learning JavaScript Design Patterns Addy Osmani
-http://www.addyosmani.com/resources/essentialjsdesignpatterns/book/
+
+[JQuery fundamentals](http://jqfundamentals.com/) Rebecca Murphey
+
+
+[Learning JavaScript Design Patterns](http://www.addyosmani.com/resources/essentialjsdesignpatterns/book/) Addy Osmani
+
 
 
 ## Intermediate online books
 
-PROGRAMMING JAVASCRIPT APPLICATIONS Eric Elliott
-http://chimera.labs.oreilly.com/books/1234000000262
+[A JavaScript survival guide](http://www.2ality.com/2014/07/javascript-survival-guide.html) Dr. Axel Rauschmayer (München)
 
-EXPLORING ES6 Axel Rauschmayer
-http://exploringjs.com/es6/
+[PROGRAMMING JAVASCRIPT APPLICATIONS](http://chimera.labs.oreilly.com/books/1234000000262) Eric Elliott
+
+
+[EXPLORING ES6](http://exploringjs.com/es6/) Axel Rauschmayer
 
 
 ## Advanced online books
 
-UP AND RUNNING WITH NODE.JS Tom Hughes-Croucher
-http://chimera.labs.oreilly.com/books/1234000001808/index.html
+[UP AND RUNNING WITH NODE.JS](http://chimera.labs.oreilly.com/books/1234000001808/index.html) Tom Hughes-Croucher
 
-Stream-handbook
-https://github.com/substack/stream-handbook
 
-THE LITTLE MONGODB BOOK Karl Seguin
-http://openmymind.net/mongodb.pdf
+[Stream-handbook](https://github.com/substack/stream-handbook)
+
+
+[THE LITTLE MONGODB BOOK](http://openmymind.net/mongodb.pdf) Karl Seguin
+
 
 
 
 ## Printed versions
 
-Eloquent JavaScript "second edition", SE nur in Englisch
-http://eloquentjavascript.net/
+[Eloquent JavaScript "second edition"](http://eloquentjavascript.net/), SE nur in Englisch
 
-Online edition
-http://eloquentjavascript.net/
+[Online edition](http://eloquentjavascript.net/)
+
 
 Die Kunst der JavaScript-Programmierung: Eine moderne Einführung in die Sprache des Web13. August 2012 
 von Marijn Haverbeke und Volkmar Gronau 24,90 €
@@ -337,7 +335,7 @@ JavaScript: The Good Parts Paperback May, 2008
 Das Beste an JavaScript 29. September 2008 
 von Douglas Crockford 
     
-Kurzbeschreibung 
+[Kurzbeschreibung](http://www.oreilly.de/catalog/javascriptgpger/ ) 
 
 Douglas Crockford, Autor und Senior JavaScript-Architekt bei PayPal!, 
 beschäftigt sich in diesem Buch mit den verschiedenen Facetten von JavaScript und destilliert ein
@@ -346,7 +344,7 @@ Er nimmt dabei auch kein Blatt vor den Mund, wenn es um die Benennung der Featur
 
 Das Beste an JavaScript richtet sich an Leser, die entweder JavaScript-Kenntnisse oder 	Erfahrungen mit anderen Programmiersprachen mitbringen und nun tiefer in die JavaScript-	Programmierung einsteigen wollen. 
 
-http://www.oreilly.de/catalog/javascriptgpger/ 
+
 	 
 
 JavaScript - Das umfassende Referenzwerk Gebundene Ausgabe  1. April 2012
@@ -357,18 +355,14 @@ Node.js: Das umfassende Handbuch.
 Serverseitige Webapplikationen mit JavaScript entwickeln (Galileo Computing) EUR 34,90 
 von Sebastian Springer (aus München) 
 
-Discover Meteor	 
+[Discover Meteor](https://www.discovermeteor.com/)	 
 
 What You'll Be Building: A real-time social news app, complete with posting, voting and 	commenting. 
 This book is a magnificent complement to the Meteor documentation, and a great option for 	anyone wanting to learn Meteor. 
 
-https://www.discovermeteor.com/
+[Deutsche kostenlose Übersetzung](http://de.discovermeteor.com/)
 
-Deutsche kostenlose Übersetzung 
-http://de.discovermeteor.com/
 
 jQuery: Das Praxisbuch (Galileo Computing) Gebundene Ausgabe 23. Dezember 2013 
 von Frank Bongers 39,90 €
 
-A JavaScript survival guide Dr. Axel Rauschmayer (München)
-http://www.2ality.com/2014/07/javascript-survival-guide.html
