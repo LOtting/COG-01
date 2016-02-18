@@ -25,26 +25,26 @@ $ mongo                     |   In a second terminal run this after ./mongod is 
 > show dbs                  |   List all databases
 > use [yourDB]              |   Switch to "yourDB" as a general rule
 > use COG-01                |   Answer "switched to db COG-01"
-> show collections          |   Answer e.g. "Addresses system.indexes"
-> db.createCollection("unicorn")  | Create a collection with the name "unicorn"
+|||
+> db.createCollection("students")  | Create a collection with the name "students"
+> show collections          |   Answer e.g. "students system.indexes"
 |||
 > db.[collection].[function]    |   As a general rule
+> db.students.insert() |   Add/insert documents(data objects) to "students" collection
+> db.students.insert({name: 'Aurora', gender: 'f', weight: 72})    |   Sample
+> db.students.insert({name: 'Leto', gender: 'm', weight: 87})    |   Sample
 |||
-> db.Addresses.insert() |   Add documents(data objects) to "Addresses" collection
-> db.unicorns.insert({name: 'Aurora', gender: 'f', weight: 450})    |   Sample
-> db.unicorns.insert({name: 'Leto', gender: 'm', weight: 585})    |   Sample
+> db.students.find()       |   Read data of "students" collection, returns stored documents
+> db.students.find().pretty()  |   Returns stored documents in human readable format
+> db.students.find({gender: 'm', weight: {$gt: 75}})   | sample
+> db.students.find().sort({weight: -1}) |  Sample, shows heaviest "students" first
 |||
-> db.Addresses.find()       |   Read data of "Adresses" collection, returns stored documents
-> db.Addresses.find().pretty()  |   Returns stored documents in human readable format
-> db.unicorns.find({gender: 'm', weight: {$gt: 300}})   | sample
-> db.unicorns.find().sort({weight: -1}) |  Sample, shows heaviest "Unicorns" first
+> db.students.update() |   Overwrite existing document with a new document 
+> db.students.update({name: 'Aurora'}, {weight: 75})  |   sample
 |||
-> db.Addresses.update() |   Overwrite existing document with a new document 
-> db.unicorns.update({name: 'Aurora'}, {weight: 480})  |   sample
-|||
-> db.Addresses.remove() |   [Delete(remove) Existing Document](https://docs.mongodb.org/manual/reference/method/db.collection.remove/)
-> db.unicorns.remove({})    |   Remove/Reset all documents from a "Unicorns" collection
-> db.unicorns.remove({name: 'Aurora'}) |    Delete(remove) "Aurora" document
+> db.students.remove() |   [Delete(remove) Existing Document](https://docs.mongodb.org/manual/reference/method/db.collection.remove/)
+> db.students.remove({})    |   Remove/Reset all documents from a "students" collection
+> db.students.remove({name: 'Aurora'}) |    Delete(remove) "Aurora" document
 
 "It's not my fault the chapters are short, MongoDB is just easy to learn." Karl Seguin
 

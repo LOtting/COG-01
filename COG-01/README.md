@@ -27,6 +27,9 @@ Node.js is an JavaScript runtime environment.
 ## [MongoDB](https://github.com/Goyapa/COG-01/tree/master/mongoDB)
 MongoDB is an open-source, document-oriented database designed for ease of development and scaling.
 
+## [Meteor](https://github.com/Goyapa/COG-01/blob/master/meteor/README.md)
+Meteor is a full-stack JavaScript platform for developing modern web and mobile applications.
+
 ## [Programming resources](https://github.com/Goyapa/COG-01/blob/master/programming-resources/js-workshop-resources.md)
 Collection of useful programming resources.
 

@@ -3,8 +3,8 @@
 Node modules are [CommonJS](http://www.commonjs.org/) modules.
 
 Modules are like "Lego" bricks with a defined interface.
-You can stick Lego bricks together and form greater things, like a Haus or a Spacestation.
-Similar with Node(Lego) Modules(Bricks) you can form bigger systems with small modules.
+You can stick Lego bricks together and form greater things, like a House or a Spacestation.
+Similar with Node(Lego) Modules(Bricks with knob interface) you can form bigger systems with small modules.
 
 #### Create Module
 With "module.exports" you create a Module.
